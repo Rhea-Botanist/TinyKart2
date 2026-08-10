@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1fc46b2b1de00a690fb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "YUV",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpuid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpuid-bd5195edc9c80725127d.json",
+					"name" : "cpuid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yuv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yuv-7a070dc3bb6c4aa7a6c3.json",
+					"name" : "yuv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yuv_common_objects::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yuv_common_objects-d304ad1ee1e77c80b0aa.json",
+					"name" : "yuv_common_objects",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yuv_neon64::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yuv_neon64-93dcd5a83fa0d705441f.json",
+					"name" : "yuv_neon64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yuv_shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yuv_shared-3aeb1d0482667de3b1ab.json",
+					"name" : "yuv_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yuv_sve::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yuv_sve-1f92c57d8ea607dfa842.json",
+					"name" : "yuv_sve",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yuvconstants::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yuvconstants-957a5b22e2557edee12c.json",
+					"name" : "yuvconstants",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yuvconvert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yuvconvert-a9dfd0e980c380ee137c.json",
+					"name" : "yuvconvert",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build",
+		"source" : "/home/isc/tk2_ws/src/libcamera/subprojects/libyuv"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

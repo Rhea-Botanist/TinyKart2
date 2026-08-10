@@ -1,0 +1,426 @@
+[0.000000] (-) TimerEvent: {}
+[0.000928] (libcamera) JobQueued: {'identifier': 'libcamera', 'dependencies': OrderedDict()}
+[0.002522] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002705] (camera_ros) JobQueued: {'identifier': 'camera_ros', 'dependencies': OrderedDict({'libcamera': '/home/isc/tk2_ws/install/libcamera'})}
+[0.002788] (libcamera) JobStarted: {'identifier': 'libcamera'}
+[0.029823] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.054760] (libcamera) JobProgress: {'identifier': 'libcamera', 'progress': 'meson'}
+[0.055001] (libcamera) Command: {'cmd': ['/usr/bin/meson', 'setup', '--libdir=lib', '--prefix=/home/isc/tk2_ws/install/libcamera', '--buildtype=release', '/home/isc/tk2_ws/build/libcamera', '/home/isc/tk2_ws/src/libcamera'], 'cwd': '/home/isc/tk2_ws/build/libcamera', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'isc', 'SSH_CLIENT': '192.168.50.106 45772 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/isc', 'OLDPWD': '/home/isc/tk2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/isc/tk2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'isc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '14', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/isc/tk2_ws/build/libcamera', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.106 45772 192.168.50.231 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.068900] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.072242] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.077604] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/isc/tk2_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/isc/tk2_ws/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'isc', 'SSH_CLIENT': '192.168.50.106 45772 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/isc', 'OLDPWD': '/home/isc/tk2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/isc/tk2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'isc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '14', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/isc/tk2_ws/build/rplidar_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.106 45772 192.168.50.231 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099248] (-) TimerEvent: {}
+[0.200073] (-) TimerEvent: {}
+[0.302694] (-) TimerEvent: {}
+[0.399103] (rplidar_ros) StdoutLine: {'line': b'[  5%] Built target rplidar_client\n'}
+[0.402866] (-) TimerEvent: {}
+[0.426560] (rplidar_ros) StdoutLine: {'line': b'[ 97%] Built target rplidar_composition\n'}
+[0.427787] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_node\n'}
+[0.485345] (rplidar_ros) CommandEnded: {'returncode': 0}
+[0.487690] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[0.503045] (-) TimerEvent: {}
+[0.535006] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/isc/tk2_ws/build/rplidar_ros'], 'cwd': '/home/isc/tk2_ws/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'isc', 'SSH_CLIENT': '192.168.50.106 45772 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/isc', 'OLDPWD': '/home/isc/tk2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/isc/tk2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'isc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '14', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/isc/tk2_ws/build/rplidar_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.106 45772 192.168.50.231 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.575533] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.577327] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.580808] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[0.581628] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[0.582497] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[0.583317] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[0.584162] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[0.585006] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[0.585840] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[0.586650] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[0.587621] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[0.588415] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[0.589206] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[0.589939] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[0.590689] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[0.591505] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[0.592273] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[0.593074] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[0.593881] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[0.594712] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[0.595490] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[0.596336] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[0.597101] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[0.597902] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[0.598684] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[0.599487] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[0.601047] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[0.602777] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[0.603523] (-) TimerEvent: {}
+[0.604404] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[0.605240] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[0.606421] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[0.607718] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[0.608923] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[0.609986] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[0.611182] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[0.612377] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[0.613632] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[0.614751] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[0.615838] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[0.616891] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[0.617642] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[0.667137] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[0.668237] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.669394] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.670506] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[0.671362] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[0.672518] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[0.679437] (rplidar_ros) CommandEnded: {'returncode': 0}
+[0.703814] (-) TimerEvent: {}
+[0.769476] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[0.803988] (-) TimerEvent: {}
+[0.904557] (-) TimerEvent: {}
+[1.005114] (-) TimerEvent: {}
+[1.020262] (libcamera) StdoutLine: {'line': b'\x1b[1mThe Meson build system\x1b[0m\n'}
+[1.021029] (libcamera) StdoutLine: {'line': b'Version: 1.3.2\n'}
+[1.021379] (libcamera) StdoutLine: {'line': b'Source dir: \x1b[1m/home/isc/tk2_ws/src/libcamera\x1b[0m\n'}
+[1.021762] (libcamera) StdoutLine: {'line': b'Build dir: \x1b[1m/home/isc/tk2_ws/build/libcamera\x1b[0m\n'}
+[1.022083] (libcamera) StdoutLine: {'line': b'Build type: \x1b[1mnative build\x1b[0m\n'}
+[1.102492] (libcamera) StdoutLine: {'line': b'Project name: \x1b[1mlibcamera\x1b[0m\n'}
+[1.103021] (libcamera) StdoutLine: {'line': b'Project version: \x1b[1m0.7.2\x1b[0m\n'}
+[1.105249] (-) TimerEvent: {}
+[1.205856] (-) TimerEvent: {}
+[1.306552] (-) TimerEvent: {}
+[1.398588] (libcamera) StdoutLine: {'line': b'C compiler for the host machine: \x1b[1mcc\x1b[0m (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[1.399135] (libcamera) StdoutLine: {'line': b'C linker for the host machine: \x1b[1mcc\x1b[0m ld.bfd 2.42\n'}
+[1.406675] (-) TimerEvent: {}
+[1.507302] (-) TimerEvent: {}
+[1.608035] (-) TimerEvent: {}
+[1.708675] (-) TimerEvent: {}
+[1.739089] (libcamera) StdoutLine: {'line': b'C++ compiler for the host machine: \x1b[1mc++\x1b[0m (gcc 13.3.0 "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[1.739683] (libcamera) StdoutLine: {'line': b'C++ linker for the host machine: \x1b[1mc++\x1b[0m ld.bfd 2.42\n'}
+[1.808860] (-) TimerEvent: {}
+[1.909564] (-) TimerEvent: {}
+[2.010155] (-) TimerEvent: {}
+[2.110872] (-) TimerEvent: {}
+[2.211595] (-) TimerEvent: {}
+[2.312215] (-) TimerEvent: {}
+[2.348528] (libcamera) StdoutLine: {'line': b'Host machine cpu family: \x1b[1maarch64\x1b[0m\n'}
+[2.349239] (libcamera) StdoutLine: {'line': b'Host machine cpu: \x1b[1maarch64\x1b[0m\n'}
+[2.412423] (-) TimerEvent: {}
+[2.513142] (-) TimerEvent: {}
+[2.613749] (-) TimerEvent: {}
+[2.714408] (-) TimerEvent: {}
+[2.751355] (libcamera) StdoutLine: {'line': b'Header "\x1b[1munistd.h\x1b[0m" has symbol "\x1b[1mclose_range\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[2.814600] (-) TimerEvent: {}
+[2.838535] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mfcntl.h\x1b[0m" has symbol "\x1b[1mF_ADD_SEALS\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[2.906784] (libcamera) StdoutLine: {'line': b'Header "\x1b[1munistd.h\x1b[0m" has symbol "\x1b[1missetugid\x1b[0m" : \x1b[1;31mNO\x1b[0m \n'}
+[2.914854] (-) TimerEvent: {}
+[2.991214] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mlocale.h\x1b[0m" has symbol "\x1b[1mlocale_t\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[3.015029] (-) TimerEvent: {}
+[3.077659] (libcamera) StdoutLine: {'line': b'Header "\x1b[1msys/mman.h\x1b[0m" has symbol "\x1b[1mmemfd_create\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[3.115265] (-) TimerEvent: {}
+[3.216031] (-) TimerEvent: {}
+[3.234577] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mstdlib.h\x1b[0m" has symbol "\x1b[1msecure_getenv\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[3.316245] (-) TimerEvent: {}
+[3.416958] (-) TimerEvent: {}
+[3.483253] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mversion\x1b[0m" has symbol "\x1b[1m_LIBCPP_VERSION\x1b[0m" : \x1b[1;31mNO\x1b[0m \n'}
+[3.517172] (-) TimerEvent: {}
+[3.570633] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mversion\x1b[0m" has symbol "\x1b[1m__GLIBCXX__\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[3.571301] (libcamera) StdoutLine: {'line': b'\x1b[1mMessage:\x1b[0m Detected C++ standard library: libstdc++\n'}
+[3.611604] (libcamera) StdoutLine: {'line': b'Compiler for C supports arguments -Wno-c99-designator: \x1b[1;31mNO\x1b[0m \n'}
+[3.617325] (-) TimerEvent: {}
+[3.651258] (libcamera) StdoutLine: {'line': b'Found pkg-config: \x1b[1;32mYES\x1b[0m \x1b[1m(/usr/bin/pkg-config)\x1b[0m \x1b[1;34m1.8.1\x1b[0m\n'}
+[3.717576] (-) TimerEvent: {}
+[3.818326] (-) TimerEvent: {}
+[3.919067] (-) TimerEvent: {}
+[4.019774] (-) TimerEvent: {}
+[4.120438] (-) TimerEvent: {}
+[4.221212] (-) TimerEvent: {}
+[4.289034] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlttng-ust\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.13.7\x1b[0m\n'}
+[4.321364] (-) TimerEvent: {}
+[4.329363] (libcamera) StdoutLine: {'line': b'Program \x1b[1m./parser.py\x1b[0m found: \x1b[1;32mYES\x1b[0m (/home/isc/tk2_ws/src/libcamera/utils/codegen/ipc/./parser.py)\n'}
+[4.330033] (libcamera) StdoutLine: {'line': b'Program \x1b[1m./generate.py\x1b[0m found: \x1b[1;32mYES\x1b[0m (/home/isc/tk2_ws/src/libcamera/utils/codegen/ipc/./generate.py)\n'}
+[4.330664] (libcamera) StdoutLine: {'line': b'Program \x1b[1m./extract-docs.py\x1b[0m found: \x1b[1;32mYES\x1b[0m (/home/isc/tk2_ws/src/libcamera/utils/codegen/ipc/./extract-docs.py)\n'}
+[4.421536] (-) TimerEvent: {}
+[4.522174] (-) TimerEvent: {}
+[4.598861] (libcamera) StdoutLine: {'line': b'Configuring \x1b[1mversion.h\x1b[0m using configuration\n'}
+[4.622317] (-) TimerEvent: {}
+[4.623661] (libcamera) StdoutLine: {'line': b'Program \x1b[1mopenssl\x1b[0m found: \x1b[1;32mYES\x1b[0m (/usr/bin/openssl)\n'}
+[4.704227] (libcamera) StdoutLine: {'line': b'Found CMake: \x1b[1m/usr/bin/cmake\x1b[0m (3.28.3)\n'}
+[4.722546] (-) TimerEvent: {}
+[4.823236] (-) TimerEvent: {}
+[4.923868] (-) TimerEvent: {}
+[5.024495] (-) TimerEvent: {}
+[5.125028] (-) TimerEvent: {}
+[5.225565] (-) TimerEvent: {}
+[5.256692] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibyuv\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[5.305070] (libcamera) StdoutLine: {'line': b'Has header "\x1b[1mlibyuv.h\x1b[0m" : \x1b[1;31mNO\x1b[0m \n'}
+[5.325727] (-) TimerEvent: {}
+[5.342521] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibjpeg\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.1.5\x1b[0m\n'}
+[5.346677] (libcamera) StdoutLine: {'line': b'\n'}
+[5.347200] (libcamera) StdoutLine: {'line': b'Executing subproject \x1b[1mlibyuv\x1b[0m method \x1b[1mcmake\x1b[0m \n'}
+[5.347648] (libcamera) StdoutLine: {'line': b'\n'}
+[5.389017] (libcamera) StdoutLine: {'line': b'libyuv| Found CMake: \x1b[1m/usr/bin/cmake\x1b[0m (3.28.3)\n'}
+[5.394480] (libcamera) StdoutLine: {'line': b'\n'}
+[5.395682] (libcamera) StdoutLine: {'line': b'| Configuring the build directory with \x1b[1mCMake\x1b[0m version \x1b[1;36m3.28.3\x1b[0m\n'}
+[5.396342] (libcamera) StdoutLine: {'line': b'| \x1b[1mRunning CMake with:\x1b[0m -G Ninja -DCMAKE_INSTALL_PREFIX=/home/isc/tk2_ws/install/libcamera -DCMAKE_POSITION_INDEPENDENT_CODE=ON\n'}
+[5.396863] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - build directory:         \x1b[0m /home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build\n'}
+[5.397298] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - source directory:        \x1b[0m /home/isc/tk2_ws/src/libcamera/subprojects/libyuv\n'}
+[5.397754] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - toolchain file:          \x1b[0m /home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeMesonToolchainFile.cmake\n'}
+[5.398118] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - preload file:            \x1b[0m /usr/lib/python3/dist-packages/mesonbuild/cmake/data/preload.cmake\n'}
+[5.398483] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - trace args:              \x1b[0m --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt\n'}
+[5.398871] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - disabled policy warnings:\x1b[0m [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]\n'}
+[5.399306] (libcamera) StdoutLine: {'line': b'\n'}
+[5.425898] (-) TimerEvent: {}
+[5.526581] (-) TimerEvent: {}
+[5.627211] (-) TimerEvent: {}
+[5.727947] (-) TimerEvent: {}
+[5.770981] (libcamera) StdoutLine: {'line': b'| Put cmake in trace mode, but with variables expanded.\n'}
+[5.771661] (libcamera) StdoutLine: {'line': b'| Put cmake in trace mode and sets the trace output format.\n'}
+[5.772100] (libcamera) StdoutLine: {'line': b'| Not searching for unused variables given on the command line.\n'}
+[5.772521] (libcamera) StdoutLine: {'line': b'| Put cmake in trace mode and redirect trace output to a file instead of stderr.\n'}
+[5.772892] (libcamera) StdoutLine: {'line': b'| Trace will be written to cmake_trace.txt\n'}
+[5.773220] (libcamera) StdoutLine: {'line': b'| -- The C compiler identification is GNU 13.3.0\n'}
+[5.828122] (-) TimerEvent: {}
+[5.928753] (-) TimerEvent: {}
+[6.029519] (-) TimerEvent: {}
+[6.114612] (libcamera) StdoutLine: {'line': b'| -- The CXX compiler identification is GNU 13.3.0\n'}
+[6.129636] (-) TimerEvent: {}
+[6.136417] (libcamera) StdoutLine: {'line': b'| CMake Warning (dev) at /usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake:224 (find_program):\n'}
+[6.137264] (libcamera) StdoutLine: {'line': b'| Policy CMP0126 is not set: set(CACHE) does not remove a normal variable of\n'}
+[6.137683] (libcamera) StdoutLine: {'line': b'| the same name.  Run "cmake --help-policy CMP0126" for policy details.  Use\n'}
+[6.138038] (libcamera) StdoutLine: {'line': b'| the cmake_policy command to set the policy and suppress this warning.\n'}
+[6.138361] (libcamera) StdoutLine: {'line': b'\n'}
+[6.138771] (libcamera) StdoutLine: {'line': b'| For compatibility with older versions of CMake, normal variable\n'}
+[6.139150] (libcamera) StdoutLine: {'line': b'| "CMAKE_TAPI" will be removed from the current scope.\n'}
+[6.139632] (libcamera) StdoutLine: {'line': b'| Call Stack (most recent call first):\n'}
+[6.140001] (libcamera) StdoutLine: {'line': b'| /usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:202 (include)\n'}
+[6.140327] (libcamera) StdoutLine: {'line': b'| CMakeLists.txt:6 (project)\n'}
+[6.140730] (libcamera) StdoutLine: {'line': b'| This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.141073] (libcamera) StdoutLine: {'line': b'\n'}
+[6.229852] (-) TimerEvent: {}
+[6.248054] (libcamera) StdoutLine: {'line': b'| -- Detecting C compiler ABI info\n'}
+[6.330040] (-) TimerEvent: {}
+[6.430725] (-) TimerEvent: {}
+[6.531436] (-) TimerEvent: {}
+[6.607254] (libcamera) StdoutLine: {'line': b'| -- Detecting C compiler ABI info - done\n'}
+[6.631586] (-) TimerEvent: {}
+[6.726273] (libcamera) StdoutLine: {'line': b'| -- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.727483] (libcamera) StdoutLine: {'line': b'| -- Detecting C compile features\n'}
+[6.731732] (-) TimerEvent: {}
+[6.732252] (libcamera) StdoutLine: {'line': b'| -- Detecting C compile features - done\n'}
+[6.810251] (libcamera) StdoutLine: {'line': b'| -- Detecting CXX compiler ABI info\n'}
+[6.831912] (-) TimerEvent: {}
+[6.932576] (-) TimerEvent: {}
+[7.033165] (-) TimerEvent: {}
+[7.133883] (-) TimerEvent: {}
+[7.212489] (libcamera) StdoutLine: {'line': b'| -- Detecting CXX compiler ABI info - done\n'}
+[7.234038] (-) TimerEvent: {}
+[7.334606] (-) TimerEvent: {}
+[7.335169] (libcamera) StdoutLine: {'line': b'| -- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.336533] (libcamera) StdoutLine: {'line': b'| -- Detecting CXX compile features\n'}
+[7.341902] (libcamera) StdoutLine: {'line': b'| -- Detecting CXX compile features - done\n'}
+[7.354809] (libcamera) StdoutLine: {'line': b'| -- Performing Test CAN_COMPILE_SME\n'}
+[7.434786] (-) TimerEvent: {}
+[7.510886] (libcamera) StdoutLine: {'line': b'| -- Performing Test CAN_COMPILE_SME - Failed\n'}
+[7.534991] (-) TimerEvent: {}
+[7.635576] (-) TimerEvent: {}
+[7.730141] (libcamera) StdoutLine: {'line': b'| -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80")\n'}
+[7.735777] (-) TimerEvent: {}
+[7.836434] (-) TimerEvent: {}
+[7.857040] (libcamera) StdoutLine: {'line': b'| -- Configuring done (2.4s)\n'}
+[7.917872] (libcamera) StdoutLine: {'line': b'| -- Generating done (0.0s)\n'}
+[7.936676] (-) TimerEvent: {}
+[7.969632] (libcamera) StdoutLine: {'line': b'| -- Build files have been written to: /home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build\n'}
+[8.036869] (-) TimerEvent: {}
+[8.086026] (libcamera) StdoutLine: {'line': b'\n'}
+[8.087340] (libcamera) StdoutLine: {'line': b'libyuv| CMake configuration: \x1b[1;32mSUCCEEDED\x1b[0m\n'}
+[8.137089] (-) TimerEvent: {}
+[8.237829] (-) TimerEvent: {}
+[8.338354] (-) TimerEvent: {}
+[8.438906] (-) TimerEvent: {}
+[8.539416] (-) TimerEvent: {}
+[8.639971] (-) TimerEvent: {}
+[8.740545] (-) TimerEvent: {}
+[8.777956] (libcamera) StdoutLine: {'line': b'libyuv| CMake project \x1b[1mYUV\x1b[0m has \x1b[1m8\x1b[0m build targets.\n'}
+[8.798230] (libcamera) StdoutLine: {'line': b'libyuv| Generated Meson AST: /home/isc/tk2_ws/build/libcamera/subprojects/libyuv/meson.build\n'}
+[8.800857] (libcamera) StdoutLine: {'line': b'libyuv| Project name: \x1b[1mYUV\x1b[0m\n'}
+[8.801375] (libcamera) StdoutLine: {'line': b'libyuv| Project version: \x1b[1mundefined\x1b[0m\n'}
+[8.801988] (libcamera) StdoutLine: {'line': b'libyuv| C compiler for the host machine: \x1b[1mcc\x1b[0m (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[8.802364] (libcamera) StdoutLine: {'line': b'libyuv| C linker for the host machine: \x1b[1mcc\x1b[0m ld.bfd 2.42\n'}
+[8.803059] (libcamera) StdoutLine: {'line': b'libyuv| C++ compiler for the host machine: \x1b[1mc++\x1b[0m (gcc 13.3.0 "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[8.803487] (libcamera) StdoutLine: {'line': b'libyuv| C++ linker for the host machine: \x1b[1mc++\x1b[0m ld.bfd 2.42\n'}
+[8.840701] (-) TimerEvent: {}
+[8.864852] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[8.865628] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[8.866025] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[8.866346] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[8.866715] (libcamera) StdoutLine: {'line': b'\n'}
+[8.867017] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[8.867319] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[8.867688] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[8.868030] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[8.868333] (libcamera) StdoutLine: {'line': b'\n'}
+[8.868719] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[8.869056] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[8.869388] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[8.869778] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[8.870090] (libcamera) StdoutLine: {'line': b'\n'}
+[8.880239] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[8.880990] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[8.881342] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[8.881728] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[8.882030] (libcamera) StdoutLine: {'line': b'\n'}
+[8.882312] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[8.882662] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[8.882991] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[8.883352] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[8.883750] (libcamera) StdoutLine: {'line': b'\n'}
+[8.884084] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[8.884400] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[8.884832] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[8.885175] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[8.885510] (libcamera) StdoutLine: {'line': b'\n'}
+[8.898654] (libcamera) StdoutLine: {'line': b'libyuv| Build targets in project: \x1b[1m36\x1b[0m\n'}
+[8.899229] (libcamera) StdoutLine: {'line': b'libyuv| Subproject \x1b[1mlibyuv\x1b[0m finished.\n'}
+[8.899856] (libcamera) StdoutLine: {'line': b'\n'}
+[8.905134] (libcamera) StdoutLine: {'line': b'\x1b[1;33mWARNING:\x1b[0m Build target libyuv-static has no sources. This was never supposed to be allowed but did because of a bug, support will be removed in a future release of Meson\n'}
+[8.940831] (-) TimerEvent: {}
+[9.041419] (-) TimerEvent: {}
+[9.132228] (libcamera) StdoutLine: {'line': b'Library \x1b[1matomic\x1b[0m found: \x1b[1;32mYES\x1b[0m\n'}
+[9.138969] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mthreads\x1b[0m found: \x1b[1;32mYES\x1b[0m\n'}
+[9.141525] (-) TimerEvent: {}
+[9.207728] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibdw\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[9.241694] (-) TimerEvent: {}
+[9.256223] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibunwind\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[9.339188] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mexecinfo.h\x1b[0m" has symbol "\x1b[1mbacktrace\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[9.341819] (-) TimerEvent: {}
+[9.442527] (-) TimerEvent: {}
+[9.543315] (-) TimerEvent: {}
+[9.567979] (libcamera) StdoutLine: {'line': b'Library \x1b[1mrt\x1b[0m found: \x1b[1;32mYES\x1b[0m\n'}
+[9.615713] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibpisp\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[9.616229] (libcamera) StdoutLine: {'line': b'Looking for a fallback subproject for the dependency \x1b[1mlibpisp\x1b[0m\n'}
+[9.616807] (libcamera) StdoutLine: {'line': b'\n'}
+[9.617171] (libcamera) StdoutLine: {'line': b'Executing subproject \x1b[1mlibpisp\x1b[0m \n'}
+[9.617517] (libcamera) StdoutLine: {'line': b'\n'}
+[9.630195] (libcamera) StdoutLine: {'line': b'libpisp| Project name: \x1b[1mlibpisp\x1b[0m\n'}
+[9.630721] (libcamera) StdoutLine: {'line': b'libpisp| Project version: \x1b[1m1.5.0\x1b[0m\n'}
+[9.631265] (libcamera) StdoutLine: {'line': b'libpisp| C compiler for the host machine: \x1b[1mcc\x1b[0m (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[9.631889] (libcamera) StdoutLine: {'line': b'libpisp| C linker for the host machine: \x1b[1mcc\x1b[0m ld.bfd 2.42\n'}
+[9.632253] (libcamera) StdoutLine: {'line': b'libpisp| C++ compiler for the host machine: \x1b[1mc++\x1b[0m (gcc 13.3.0 "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[9.632632] (libcamera) StdoutLine: {'line': b'libpisp| C++ linker for the host machine: \x1b[1mc++\x1b[0m ld.bfd 2.42\n'}
+[9.643481] (-) TimerEvent: {}
+[9.681036] (libcamera) StdoutLine: {'line': b'libpisp| Configuring \x1b[1mpisp_build_config.h\x1b[0m using configuration\n'}
+[9.743613] (-) TimerEvent: {}
+[9.750415] (libcamera) StdoutLine: {'line': b'libpisp| Run-time dependency \x1b[1mnlohmann_json\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[9.751150] (libcamera) StdoutLine: {'line': b'libpisp| Looking for a fallback subproject for the dependency \x1b[1mnlohmann_json\x1b[0m\n'}
+[9.751815] (libcamera) StdoutLine: {'line': b'libpisp| Using \x1b[1msubprojects/libpisp/subprojects/nlohmann_json.wrap\x1b[0m\n'}
+[9.752382] (libcamera) StdoutLine: {'line': b"libpisp| \x1b[1;33mWARNING:\x1b[0m Subproject nlohmann_json's revision may be out of date; its wrap file has changed since it was first configured\n"}
+[9.753006] (libcamera) StdoutLine: {'line': b'\n'}
+[9.753415] (libcamera) StdoutLine: {'line': b'Executing subproject \x1b[1mlibpisp:nlohmann_json\x1b[0m\n'}
+[9.753872] (libcamera) StdoutLine: {'line': b'\n'}
+[9.760383] (libcamera) StdoutLine: {'line': b'nlohmann_json| Project name: \x1b[1mnlohmann_json\x1b[0m\n'}
+[9.760969] (libcamera) StdoutLine: {'line': b'nlohmann_json| Project version: \x1b[1m3.12.0\x1b[0m\n'}
+[9.761410] (libcamera) StdoutLine: {'line': b'nlohmann_json| C++ compiler for the host machine: \x1b[1mc++\x1b[0m (gcc 13.3.0 "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[9.761895] (libcamera) StdoutLine: {'line': b'nlohmann_json| C++ linker for the host machine: \x1b[1mc++\x1b[0m ld.bfd 2.42\n'}
+[9.765924] (libcamera) StdoutLine: {'line': b'nlohmann_json| Build targets in project: \x1b[1m46\x1b[0m\n'}
+[9.766556] (libcamera) StdoutLine: {'line': b'nlohmann_json| Subproject \x1b[1mnlohmann_json\x1b[0m finished.\n'}
+[9.766995] (libcamera) StdoutLine: {'line': b'\n'}
+[9.767586] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mnlohmann_json\x1b[0m from subproject \x1b[1msubprojects/nlohmann_json-3.12.0\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m3.12.0\x1b[0m\n'}
+[9.768602] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mthreads\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36munknown\x1b[0m \x1b[1;34m(cached)\x1b[0m\n'}
+[9.843816] (-) TimerEvent: {}
+[9.944652] (-) TimerEvent: {}
+[10.045606] (-) TimerEvent: {}
+[10.146396] (-) TimerEvent: {}
+[10.247409] (-) TimerEvent: {}
+[10.348560] (-) TimerEvent: {}
+[10.449596] (-) TimerEvent: {}
+[10.550602] (-) TimerEvent: {}
+[10.651292] (-) TimerEvent: {}
+[10.752335] (-) TimerEvent: {}
+[10.853429] (-) TimerEvent: {}
+[10.954541] (-) TimerEvent: {}
+[11.055517] (-) TimerEvent: {}
+[11.151430] (libcamera) StdoutLine: {'line': b'libpisp| Library \x1b[1mdl\x1b[0m found: \x1b[1;32mYES\x1b[0m\n'}
+[11.155607] (-) TimerEvent: {}
+[11.256156] (-) TimerEvent: {}
+[11.356661] (-) TimerEvent: {}
+[11.423332] (libcamera) StdoutLine: {'line': b'libpisp| Run-time dependency \x1b[1mBoost\x1b[0m (found: log, log_setup, system, thread) found: \x1b[1;32mYES\x1b[0m \x1b[36m1.83.0\x1b[0m (/usr)\n'}
+[11.456815] (-) TimerEvent: {}
+[11.459362] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mgstreamer-1.0\x1b[0m skipped: feature \x1b[1mgstreamer\x1b[0m disabled\n'}
+[11.460106] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mgstreamer-base-1.0\x1b[0m skipped: feature \x1b[1mgstreamer\x1b[0m disabled\n'}
+[11.460930] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mgstreamer-video-1.0\x1b[0m skipped: feature \x1b[1mgstreamer\x1b[0m disabled\n'}
+[11.462315] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mgstreamer-allocators-1.0\x1b[0m skipped: feature \x1b[1mgstreamer\x1b[0m disabled\n'}
+[11.463349] (libcamera) StdoutLine: {'line': b'libpisp| Build targets in project: \x1b[1m48\x1b[0m\n'}
+[11.464020] (libcamera) StdoutLine: {'line': b'libpisp| Subproject \x1b[1mlibpisp\x1b[0m finished.\n'}
+[11.464445] (libcamera) StdoutLine: {'line': b'\n'}
+[11.464878] (libcamera) StdoutLine: {'line': b'Dependency \x1b[1mlibpisp\x1b[0m from subproject \x1b[1msubprojects/libpisp\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m1.5.0\x1b[0m\n'}
+[11.555913] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1megl\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m1.5\x1b[0m\n'}
+[11.556959] (-) TimerEvent: {}
+[11.588998] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mglesv2\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m3.2\x1b[0m\n'}
+[11.657239] (-) TimerEvent: {}
+[11.664921] (libcamera) StdoutLine: {'line': b'Check usable header "\x1b[1mEGL/egl.h\x1b[0m" with dependency egl: \x1b[1;32mYES\x1b[0m \n'}
+[11.757640] (-) TimerEvent: {}
+[11.858390] (-) TimerEvent: {}
+[11.892943] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mdl\x1b[0m found: \x1b[1;32mYES\x1b[0m\n'}
+[11.924487] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibudev\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m255\x1b[0m\n'}
+[11.956901] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1myaml-0.1\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m0.2.5\x1b[0m\n'}
+[11.958546] (-) TimerEvent: {}
+[12.059184] (-) TimerEvent: {}
+[12.159954] (-) TimerEvent: {}
+[12.260580] (-) TimerEvent: {}
+[12.361133] (-) TimerEvent: {}
+[12.461709] (-) TimerEvent: {}
+[12.551630] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mgnutls\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[12.561858] (-) TimerEvent: {}
+[12.581489] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibcrypto\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m3.0.13\x1b[0m\n'}
+[12.657091] (libcamera) StdoutLine: {'line': b'Header "\x1b[1muchar.h\x1b[0m" has symbol "\x1b[1mmbrtoc16\x1b[0m" skipped: feature \x1b[1mandroid\x1b[0m disabled\n'}
+[12.661974] (-) TimerEvent: {}
+[12.762524] (-) TimerEvent: {}
+[12.863147] (-) TimerEvent: {}
+[12.868497] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mtensorflow-lite\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[12.963327] (-) TimerEvent: {}
+[13.063976] (-) TimerEvent: {}
+[13.096098] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibevent_pthreads\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.1.12-stable\x1b[0m\n'}
+[13.130754] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibtiff-4\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m4.5.1\x1b[0m\n'}
+[13.164122] (-) TimerEvent: {}
+[13.191010] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mGTest\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m1.14.0\x1b[0m\n'}
+[13.250502] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibdrm\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.4.125\x1b[0m\n'}
+[13.264289] (-) TimerEvent: {}
+[13.285367] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1msdl2\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.30.0\x1b[0m\n'}
+[13.287294] (libcamera) StdoutLine: {'line': b'Dependency \x1b[1mlibjpeg\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.1.5\x1b[0m \x1b[1;34m(cached)\x1b[0m\n'}
+[13.357763] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mqt6\x1b[0m (modules: Core, Gui, OpenGL, OpenGLWidgets, Widgets) found: \x1b[1;31mNO\x1b[0m (tried pkgconfig)\n'}
+[13.364437] (-) TimerEvent: {}
+[13.410050] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mglib-2.0\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.80.0\x1b[0m\n'}
+[13.459221] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mgstreamer-video-1.0\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[13.464588] (-) TimerEvent: {}
+[13.503610] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mgstreamer-allocators-1.0\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[13.564765] (-) TimerEvent: {}
+[13.638287] (libcamera) StdoutLine: {'line': b'Program python3 found: \x1b[1;32mYES\x1b[0m (/usr/bin/python3)\n'}
+[13.664931] (-) TimerEvent: {}
+[13.669405] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mpybind11\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.11.1\x1b[0m\n'}
+[13.735666] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mpython\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m3.12\x1b[0m\n'}
+[13.765092] (-) TimerEvent: {}
+[13.786839] (libcamera) StdoutLine: {'line': b'Configuring \x1b[1mlibcamerify\x1b[0m using configuration\n'}
+[13.819024] (libcamera) StdoutLine: {'line': b'Program \x1b[1mdoxygen\x1b[0m found: \x1b[1;31mNO\x1b[0m\n'}
+[13.820586] (libcamera) StdoutLine: {'line': b'Program \x1b[1mdot\x1b[0m found: \x1b[1;32mYES\x1b[0m (/usr/bin/dot)\n'}
+[13.822813] (libcamera) StdoutLine: {'line': b'Program \x1b[1msphinx-build-3 sphinx-build\x1b[0m found: \x1b[1;31mNO\x1b[0m\n'}
+[13.865234] (-) TimerEvent: {}
+[13.871629] (libcamera) StdoutLine: {'line': b'Configuring \x1b[1mconfig.h\x1b[0m using configuration\n'}
+[13.965391] (-) TimerEvent: {}
+[14.065992] (-) TimerEvent: {}
+[14.166620] (-) TimerEvent: {}
+[14.267290] (-) TimerEvent: {}
+[14.367986] (-) TimerEvent: {}
+[14.468674] (-) TimerEvent: {}
+[14.569320] (-) TimerEvent: {}
+[14.669998] (-) TimerEvent: {}
+[14.770691] (-) TimerEvent: {}
+[14.871294] (-) TimerEvent: {}
+[14.971993] (-) TimerEvent: {}
+[15.072660] (-) TimerEvent: {}
+[15.132642] (libcamera) StdoutLine: {'line': b'\n'}
+[15.133780] (libcamera) StdoutLine: {'line': b"../../src/libcamera/meson.build:291:8: \x1b[1;31mERROR:\x1b[0m Problem encountered: Python module 'ply' not found\n"}
+[15.135353] (libcamera) StdoutLine: {'line': b'\n'}
+[15.136205] (libcamera) StdoutLine: {'line': b'A full log can be found at \x1b[1m/home/isc/tk2_ws/build/libcamera/meson-logs/meson-log.txt\x1b[0m\n'}
+[15.172884] (-) TimerEvent: {}
+[15.273843] (-) TimerEvent: {}
+[15.374621] (-) TimerEvent: {}
+[15.455328] (libcamera) CommandEnded: {'returncode': 1}
+[15.457150] (libcamera) JobEnded: {'identifier': 'libcamera', 'rc': 1}
+[15.468762] (camera_ros) JobSkipped: {'identifier': 'camera_ros'}
+[15.469081] (-) EventReactorShutdown: {}

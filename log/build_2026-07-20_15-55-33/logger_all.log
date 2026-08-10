@@ -1,0 +1,277 @@
+[1.607s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.608s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8ddd30b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8df8bbc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8df8bbc0>>, mixin_verb=('build',))
+[1.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.881s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/isc/tk2_ws'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'meson', 'python']
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'meson'
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'meson', 'python']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'meson'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[2.092s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_transforms) by extensions ['ignore', 'ignore_ament_install']
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_transforms) by extension 'ignore'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_transforms) by extension 'ignore_ament_install'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_transforms) by extensions ['colcon_pkg']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_transforms) by extension 'colcon_pkg'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_transforms) by extensions ['colcon_meta']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_transforms) by extension 'colcon_meta'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_transforms) by extensions ['ros']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_transforms) by extension 'ros'
+[2.097s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_transforms' with type 'ros.ament_cmake' and name 'tf2_transforms'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ignore'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ignore_ament_install'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['colcon_pkg']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'colcon_pkg'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['colcon_meta']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'colcon_meta'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['ros']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ros'
+[2.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[2.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.199s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/isc/tk2_ws/install
+[2.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 298 installed packages in /opt/ros/jazzy
+[2.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.483s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[2.484s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[2.484s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.484s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.484s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.484s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.484s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'meson_args' from command line to '[]'
+[2.484s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.484s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.484s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.484s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/isc/tk2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/isc/tk2_ws/install/rplidar_ros', 'merge_install': False, 'meson_args': [], 'path': '/home/isc/tk2_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[2.537s] Level 5:colcon.colcon_core.verb:set package 'tf2_transforms' build argument 'cmake_args' from command line to 'None'
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'tf2_transforms' build argument 'cmake_target' from command line to 'None'
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'tf2_transforms' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'tf2_transforms' build argument 'cmake_clean_cache' from command line to 'False'
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'tf2_transforms' build argument 'cmake_clean_first' from command line to 'False'
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'tf2_transforms' build argument 'cmake_force_configure' from command line to 'False'
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'tf2_transforms' build argument 'meson_args' from command line to '[]'
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'tf2_transforms' build argument 'ament_cmake_args' from command line to 'None'
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'tf2_transforms' build argument 'catkin_cmake_args' from command line to 'None'
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'tf2_transforms' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.539s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_transforms' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/isc/tk2_ws/build/tf2_transforms', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/isc/tk2_ws/install/tf2_transforms', 'merge_install': False, 'meson_args': [], 'path': '/home/isc/tk2_ws/src/tf2_transforms', 'symlink_install': False, 'test_result_base': None}
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'meson_args' from command line to '[]'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[2.592s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.593s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/isc/tk2_ws/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/isc/tk2_ws/install/v4l2_camera', 'merge_install': False, 'meson_args': [], 'path': '/home/isc/tk2_ws/src/v4l2_camera', 'symlink_install': False, 'test_result_base': None}
+[2.593s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.597s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/isc/tk2_ws/src/rplidar_ros' with build type 'ament_cmake'
+[2.598s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/isc/tk2_ws/src/rplidar_ros'
+[2.617s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.618s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.618s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.640s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/isc/tk2_ws/src/tf2_transforms' with build type 'ament_cmake'
+[2.641s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/isc/tk2_ws/src/tf2_transforms'
+[2.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.664s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/isc/tk2_ws/src/v4l2_camera' with build type 'ament_cmake'
+[2.664s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/isc/tk2_ws/src/v4l2_camera'
+[2.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isc/tk2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/rplidar_ros -- -j4 -l4
+[2.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isc/tk2_ws/build/tf2_transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/tf2_transforms -- -j4 -l4
+[2.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isc/tk2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/v4l2_camera -- -j4 -l4
+[3.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isc/tk2_ws/build/tf2_transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/tf2_transforms -- -j4 -l4
+[3.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isc/tk2_ws/build/tf2_transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/isc/tk2_ws/build/tf2_transforms
+[3.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_transforms)
+[3.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isc/tk2_ws/build/tf2_transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/isc/tk2_ws/build/tf2_transforms
+[3.479s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms' for CMake module files
+[3.483s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms' for CMake config files
+[3.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_transforms', 'cmake_prefix_path')
+[3.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/hook/cmake_prefix_path.ps1'
+[3.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/hook/cmake_prefix_path.dsv'
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/hook/cmake_prefix_path.sh'
+[3.499s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms/bin'
+[3.500s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms/lib/pkgconfig/tf2_transforms.pc'
+[3.501s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms/lib/python3.12/site-packages'
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms/bin'
+[3.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.ps1'
+[3.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.dsv'
+[3.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.sh'
+[3.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.bash'
+[3.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.zsh'
+[3.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isc/tk2_ws/install/tf2_transforms/share/colcon-core/packages/tf2_transforms)
+[3.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_transforms)
+[3.536s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms' for CMake module files
+[3.540s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms' for CMake config files
+[3.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_transforms', 'cmake_prefix_path')
+[3.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/hook/cmake_prefix_path.ps1'
+[3.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/hook/cmake_prefix_path.dsv'
+[3.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/hook/cmake_prefix_path.sh'
+[3.553s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms/bin'
+[3.554s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms/lib/pkgconfig/tf2_transforms.pc'
+[3.555s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms/lib/python3.12/site-packages'
+[3.557s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/tf2_transforms/bin'
+[3.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.ps1'
+[3.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.dsv'
+[3.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.sh'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.bash'
+[3.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.zsh'
+[3.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isc/tk2_ws/install/tf2_transforms/share/colcon-core/packages/tf2_transforms)
+[3.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isc/tk2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/rplidar_ros -- -j4 -l4
+[3.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isc/tk2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/isc/tk2_ws/build/rplidar_ros
+[3.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isc/tk2_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/v4l2_camera -- -j4 -l4
+[3.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isc/tk2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/isc/tk2_ws/build/v4l2_camera
+[3.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[3.851s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros' for CMake module files
+[3.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isc/tk2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/isc/tk2_ws/build/rplidar_ros
+[3.856s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros' for CMake config files
+[3.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[3.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[3.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[3.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[3.869s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros/lib'
+[3.870s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros/bin'
+[3.871s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[3.872s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros/bin'
+[3.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[3.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[3.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[3.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[3.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[3.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isc/tk2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[3.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros' for CMake module files
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros' for CMake config files
+[3.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[3.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[3.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[3.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[3.927s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros/lib'
+[3.928s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros/bin'
+[3.928s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[3.929s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[3.930s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/rplidar_ros/bin'
+[3.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[3.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[3.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[3.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[3.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[3.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isc/tk2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[3.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[3.946s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera' for CMake module files
+[3.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isc/tk2_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/isc/tk2_ws/build/v4l2_camera
+[3.950s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera' for CMake config files
+[3.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[3.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[3.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[3.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[3.961s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera/lib'
+[3.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[3.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[3.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[3.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera/bin'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[3.969s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera/lib/python3.12/site-packages'
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera/bin'
+[3.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[3.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[3.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[3.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isc/tk2_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[3.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[3.983s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera' for CMake module files
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera' for CMake config files
+[3.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[3.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[3.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[3.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera/lib'
+[3.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[3.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[3.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera/bin'
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[4.001s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera/lib/python3.12/site-packages'
+[4.002s] Level 1:colcon.colcon_core.environment:checking '/home/isc/tk2_ws/install/v4l2_camera/bin'
+[4.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[4.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[4.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[4.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[4.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isc/tk2_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[4.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.017s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.020s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.020s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isc/tk2_ws/install/local_setup.ps1'
+[4.024s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/isc/tk2_ws/install/_local_setup_util_ps1.py'
+[4.030s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isc/tk2_ws/install/setup.ps1'
+[4.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isc/tk2_ws/install/local_setup.sh'
+[4.043s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/isc/tk2_ws/install/_local_setup_util_sh.py'
+[4.046s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isc/tk2_ws/install/setup.sh'
+[4.051s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isc/tk2_ws/install/local_setup.bash'
+[4.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isc/tk2_ws/install/setup.bash'
+[4.058s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isc/tk2_ws/install/local_setup.zsh'
+[4.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isc/tk2_ws/install/setup.zsh'

@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.001365] (camera_ros) JobQueued: {'identifier': 'camera_ros', 'dependencies': OrderedDict()}
+[0.001494] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002355] (camera_ros) JobStarted: {'identifier': 'camera_ros'}
+[0.030062] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.054195] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'cmake'}
+[0.056476] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/isc/tk2_ws/src/camera_ros', '-DCMAKE_INSTALL_PREFIX=/home/isc/tk2_ws/install/camera_ros'], 'cwd': '/home/isc/tk2_ws/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'isc', 'SSH_CLIENT': '192.168.50.106 45772 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/isc', 'OLDPWD': '/home/isc/tk2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/isc/tk2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'isc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '14', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/isc/tk2_ws/build/camera_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.106 45772 192.168.50.231 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.070355] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.073132] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.078062] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/isc/tk2_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/isc/tk2_ws/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'isc', 'SSH_CLIENT': '192.168.50.106 45772 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/isc', 'OLDPWD': '/home/isc/tk2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/isc/tk2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'isc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '14', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/isc/tk2_ws/build/rplidar_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.106 45772 192.168.50.231 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099327] (-) TimerEvent: {}
+[0.200163] (-) TimerEvent: {}
+[0.301093] (-) TimerEvent: {}
+[0.379910] (camera_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.401281] (-) TimerEvent: {}
+[0.419147] (rplidar_ros) StdoutLine: {'line': b'[  5%] Built target rplidar_client\n'}
+[0.433683] (rplidar_ros) StdoutLine: {'line': b'[ 52%] Built target rplidar_node\n'}
+[0.443693] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[0.501408] (-) TimerEvent: {}
+[0.504023] (rplidar_ros) CommandEnded: {'returncode': 0}
+[0.506037] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[0.548833] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/isc/tk2_ws/build/rplidar_ros'], 'cwd': '/home/isc/tk2_ws/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'isc', 'SSH_CLIENT': '192.168.50.106 45772 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/isc', 'OLDPWD': '/home/isc/tk2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/isc/tk2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'isc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '14', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/isc/tk2_ws/build/rplidar_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.106 45772 192.168.50.231 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.591709] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.593568] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.597209] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[0.598082] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[0.598928] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[0.599746] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[0.600491] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[0.601312] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[0.601899] (-) TimerEvent: {}
+[0.602926] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[0.603508] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[0.604159] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[0.604854] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[0.605457] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[0.606290] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[0.607079] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[0.607897] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[0.608756] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[0.609690] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[0.610479] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[0.611288] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[0.612114] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[0.612930] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[0.613875] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[0.614791] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[0.615608] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[0.616416] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[0.618341] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[0.619924] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[0.620943] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[0.621971] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[0.623398] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[0.625577] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[0.627164] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[0.628363] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[0.629613] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[0.630805] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[0.631916] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[0.633528] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[0.635102] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[0.636098] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[0.636788] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[0.683929] (camera_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.688839] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[0.689874] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.691060] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.692001] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[0.692832] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[0.693763] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[0.701417] (rplidar_ros) CommandEnded: {'returncode': 0}
+[0.703396] (-) TimerEvent: {}
+[0.767743] (camera_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.790406] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[0.803602] (-) TimerEvent: {}
+[0.904207] (-) TimerEvent: {}
+[1.004916] (-) TimerEvent: {}
+[1.105539] (-) TimerEvent: {}
+[1.206221] (-) TimerEvent: {}
+[1.228460] (camera_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.263531] (camera_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.264429] (camera_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.265972] (camera_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.306420] (-) TimerEvent: {}
+[1.311759] (camera_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.406686] (-) TimerEvent: {}
+[1.507373] (-) TimerEvent: {}
+[1.608096] (-) TimerEvent: {}
+[1.708869] (-) TimerEvent: {}
+[1.809782] (-) TimerEvent: {}
+[1.814641] (camera_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.851054] (camera_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.852083] (camera_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.853909] (camera_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.882672] (camera_ros) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.909919] (-) TimerEvent: {}
+[2.010507] (-) TimerEvent: {}
+[2.111257] (-) TimerEvent: {}
+[2.211955] (-) TimerEvent: {}
+[2.312715] (-) TimerEvent: {}
+[2.413292] (-) TimerEvent: {}
+[2.513935] (-) TimerEvent: {}
+[2.607225] (camera_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.614129] (-) TimerEvent: {}
+[2.714733] (-) TimerEvent: {}
+[2.815306] (-) TimerEvent: {}
+[2.916021] (-) TimerEvent: {}
+[3.016892] (-) TimerEvent: {}
+[3.117451] (-) TimerEvent: {}
+[3.218079] (-) TimerEvent: {}
+[3.258017] (camera_ros) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[3.284183] (camera_ros) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[3.318253] (-) TimerEvent: {}
+[3.418864] (-) TimerEvent: {}
+[3.519429] (-) TimerEvent: {}
+[3.609928] (camera_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.619563] (-) TimerEvent: {}
+[3.710460] (camera_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.719729] (-) TimerEvent: {}
+[3.820276] (-) TimerEvent: {}
+[3.821241] (camera_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.920438] (-) TimerEvent: {}
+[3.939442] (camera_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.020607] (-) TimerEvent: {}
+[4.121238] (-) TimerEvent: {}
+[4.221851] (-) TimerEvent: {}
+[4.322434] (-) TimerEvent: {}
+[4.379532] (camera_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.405719] (camera_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.422564] (-) TimerEvent: {}
+[4.523121] (-) TimerEvent: {}
+[4.623760] (-) TimerEvent: {}
+[4.724392] (-) TimerEvent: {}
+[4.825107] (-) TimerEvent: {}
+[4.885776] (camera_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[4.925323] (-) TimerEvent: {}
+[4.979296] (camera_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.025559] (-) TimerEvent: {}
+[5.072252] (camera_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.125757] (-) TimerEvent: {}
+[5.226334] (-) TimerEvent: {}
+[5.326967] (-) TimerEvent: {}
+[5.427667] (-) TimerEvent: {}
+[5.456912] (camera_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.21 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[5.527773] (-) TimerEvent: {}
+[5.628356] (-) TimerEvent: {}
+[5.695082] (camera_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[5.728579] (-) TimerEvent: {}
+[5.829222] (-) TimerEvent: {}
+[5.929878] (-) TimerEvent: {}
+[5.954217] (camera_ros) StdoutLine: {'line': b'-- Found diagnostic_msgs: 5.3.8 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)\n'}
+[6.030056] (-) TimerEvent: {}
+[6.058307] (camera_ros) StdoutLine: {'line': b'-- Found camera_info_manager: 5.1.8 (/opt/ros/jazzy/share/camera_info_manager/cmake)\n'}
+[6.113595] (camera_ros) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[6.130249] (-) TimerEvent: {}
+[6.230847] (-) TimerEvent: {}
+[6.331450] (-) TimerEvent: {}
+[6.342791] (camera_ros) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[6.409438] (camera_ros) StdoutLine: {'line': b"-- Checking for module 'libcamera>=0.1'\n"}
+[6.431647] (-) TimerEvent: {}
+[6.457765] (camera_ros) StdoutLine: {'line': b"--   Package 'libcamera', required by 'virtual:world', not found\n"}
+[6.458540] (camera_ros) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake:619 (message):\n'}
+[6.459084] (camera_ros) StderrLine: {'line': b'  The following required packages were not found:\n'}
+[6.459486] (camera_ros) StderrLine: {'line': b'\n'}
+[6.459946] (camera_ros) StderrLine: {'line': b'   - libcamera>=0.1\n'}
+[6.460343] (camera_ros) StderrLine: {'line': b'\n'}
+[6.460781] (camera_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.461187] (camera_ros) StderrLine: {'line': b'  /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake:841 (_pkg_check_modules_internal)\n'}
+[6.461540] (camera_ros) StderrLine: {'line': b'  CMakeLists.txt:26 (pkg_check_modules)\n'}
+[6.462051] (camera_ros) StderrLine: {'line': b'\n'}
+[6.462394] (camera_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[6.462782] (camera_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.504040] (camera_ros) CommandEnded: {'returncode': 1}
+[6.531852] (-) TimerEvent: {}
+[6.581701] (camera_ros) JobEnded: {'identifier': 'camera_ros', 'rc': 1}
+[6.593209] (-) EventReactorShutdown: {}

@@ -1,0 +1,45 @@
+[0.077s] Invoking command in '/home/isc/tk2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/v4l2_camera -- -j4 -l4
+[1.157s] [ 50%] Built target v4l2_camera
+[1.367s] [ 75%] Built target v4l2_camera_node
+[1.378s] [100%] Built target v4l2_camera_compose_test
+[1.548s] Invoked command in '/home/isc/tk2_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/v4l2_camera -- -j4 -l4
+[1.564s] Invoking command in '/home/isc/tk2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/isc/tk2_ws/build/v4l2_camera
+[1.608s] -- Install configuration: ""
+[1.608s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/include
+[1.610s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/include/v4l2_camera
+[1.612s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[1.612s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[1.613s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[1.614s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[1.614s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[1.615s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/include/v4l2_camera/parameters.hpp
+[1.615s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/include/v4l2_camera/control.hpp
+[1.615s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[1.616s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/lib/libv4l2_camera.so
+[1.617s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[1.628s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[1.630s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[1.631s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[1.632s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[1.633s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[1.633s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[1.634s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[1.636s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[1.636s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[1.637s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[1.638s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[1.639s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[1.639s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[1.640s] -- Installing: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.dsv
+[1.642s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[1.643s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[1.650s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[1.651s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[1.652s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.653s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[1.654s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[1.655s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.655s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[1.657s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[1.658s] -- Up-to-date: /home/isc/tk2_ws/install/v4l2_camera/share/v4l2_camera/package.xml
+[1.666s] Invoked command in '/home/isc/tk2_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/isc/tk2_ws/build/v4l2_camera

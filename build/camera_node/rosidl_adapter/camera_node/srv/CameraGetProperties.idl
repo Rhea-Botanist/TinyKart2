@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from camera_node/srv/CameraGetProperties.srv
+// generated code does not contain a copyright notice
+
+#include "camera_node/msg/CameraProperty.idl"
+
+module camera_node {
+  module srv {
+    @verbatim (language="comment", text=
+      "Copyright (c) 2022-2024 Antmicro <www.antmicro.com>" "\n"
+      "" "\n"
+      "SPDX-License-Identifier: Apache-2.0")
+    struct CameraGetProperties_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct CameraGetProperties_Response {
+      sequence<camera_node::msg::CameraProperty> properties;
+    };
+  };
+};

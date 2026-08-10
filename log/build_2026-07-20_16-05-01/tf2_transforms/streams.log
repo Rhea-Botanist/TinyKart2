@@ -1,0 +1,28 @@
+[0.074s] Invoking command in '/home/isc/tk2_ws/build/tf2_transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/tf2_transforms -- -j4 -l4
+[0.223s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.392s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.548s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.588s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.692s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.846s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.037s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.043s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.321s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.557s] -- Found tf2: 0.36.21 (/opt/ros/jazzy/share/tf2/cmake)
+[2.571s] -- Found tf2_ros: 0.36.21 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.947s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.357s] [31mCMake Error at CMakeLists.txt:36 (install):
+[3.358s]   install TARGETS given target "tinykart_static_tf2" which does not exist.
+[3.358s] 
+[3.358s] [0m
+[3.387s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.387s] -- Configured cppcheck include dirs: 
+[3.388s] -- Configured cppcheck exclude dirs and/or files: 
+[3.392s] -- Added test 'lint_cmake' to check CMake code style
+[3.401s] -- Added test 'uncrustify' to check C / C++ code style
+[3.402s] -- Configured uncrustify additional arguments: 
+[3.404s] -- Added test 'xmllint' to check XML markup files
+[3.411s] -- Configuring incomplete, errors occurred!
+[3.444s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[3.452s] Invoked command in '/home/isc/tk2_ws/build/tf2_transforms' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/tf2_transforms -- -j4 -l4

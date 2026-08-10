@@ -1,0 +1,15 @@
+{
+  "package_name": "camera_node",
+  "output_dir": "/home/isc/tk2_ws/build/camera_node/rosidl_generator_type_description/camera_node",
+  "idl_tuples": [
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node:msg/CameraProperty.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node:msg/CameraPropertyDetails.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node:msg/CameraPropertyMenuEntry.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node:srv/CameraGetProperties.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node:srv/CameraGetPropertyDetails.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

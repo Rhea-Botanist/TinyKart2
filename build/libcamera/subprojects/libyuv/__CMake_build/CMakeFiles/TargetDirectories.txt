@@ -1,0 +1,16 @@
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/yuv_common_objects.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/yuv_neon64.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/yuv_sve.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/yuv.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/yuv_shared.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/cpuid.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/yuvconvert.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/yuvconstants.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/package.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/package_source.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/edit_cache.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/rebuild_cache.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/list_install_components.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/install.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/install/local.dir
+/home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeFiles/install/strip.dir

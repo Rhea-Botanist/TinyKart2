@@ -1,0 +1,60 @@
+{
+  "package_name": "camera_node",
+  "output_dir": "/home/isc/tk2_ws/build/camera_node/rosidl_generator_c/camera_node",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node:msg/CameraProperty.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node:msg/CameraPropertyDetails.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node:msg/CameraPropertyMenuEntry.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node:srv/CameraGetProperties.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node:srv/CameraGetPropertyDetails.idl"
+  ],
+  "ros_interface_files": [
+    "/home/isc/tk2_ws/src/ros2-camera-node/msg/CameraProperty.msg",
+    "/home/isc/tk2_ws/src/ros2-camera-node/msg/CameraPropertyDetails.msg",
+    "/home/isc/tk2_ws/src/ros2-camera-node/msg/CameraPropertyMenuEntry.msg",
+    "/home/isc/tk2_ws/src/ros2-camera-node/srv/CameraGetProperties.srv",
+    "/home/isc/tk2_ws/src/ros2-camera-node/srv/CameraGetPropertyDetails.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node/msg/CameraProperty.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node/msg/CameraPropertyDetails.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node/msg/CameraPropertyMenuEntry.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node/srv/CameraGetProperties.idl",
+    "/home/isc/tk2_ws/build/camera_node/rosidl_adapter/camera_node/srv/CameraGetPropertyDetails.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/CameraProperty.idl:/home/isc/tk2_ws/build/camera_node/rosidl_generator_type_description/camera_node/msg/CameraProperty.json",
+    "msg/CameraPropertyDetails.idl:/home/isc/tk2_ws/build/camera_node/rosidl_generator_type_description/camera_node/msg/CameraPropertyDetails.json",
+    "msg/CameraPropertyMenuEntry.idl:/home/isc/tk2_ws/build/camera_node/rosidl_generator_type_description/camera_node/msg/CameraPropertyMenuEntry.json",
+    "srv/CameraGetProperties.idl:/home/isc/tk2_ws/build/camera_node/rosidl_generator_type_description/camera_node/srv/CameraGetProperties.json",
+    "srv/CameraGetPropertyDetails.idl:/home/isc/tk2_ws/build/camera_node/rosidl_generator_type_description/camera_node/srv/CameraGetPropertyDetails.json"
+  ]
+}

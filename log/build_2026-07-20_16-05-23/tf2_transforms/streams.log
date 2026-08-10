@@ -1,0 +1,48 @@
+[0.075s] Invoking command in '/home/isc/tk2_ws/build/tf2_transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/tf2_transforms -- -j4 -l4
+[0.225s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.385s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.542s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.581s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.630s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.840s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.029s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.035s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.315s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.551s] -- Found tf2: 0.36.21 (/opt/ros/jazzy/share/tf2/cmake)
+[2.565s] -- Found tf2_ros: 0.36.21 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.943s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.369s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.369s] -- Configured cppcheck include dirs: 
+[3.369s] -- Configured cppcheck exclude dirs and/or files: 
+[3.372s] -- Added test 'lint_cmake' to check CMake code style
+[3.378s] -- Added test 'uncrustify' to check C / C++ code style
+[3.379s] -- Configured uncrustify additional arguments: 
+[3.380s] -- Added test 'xmllint' to check XML markup files
+[3.384s] -- Configuring done (3.2s)
+[3.481s] -- Generating done (0.0s)
+[3.504s] -- Build files have been written to: /home/isc/tk2_ws/build/tf2_transforms
+[3.690s] [ 50%] [32mBuilding CXX object CMakeFiles/tf2_transforms.dir/src/tinykart_static_tf2.cpp.o[0m
+[22.904s] [100%] [32m[1mLinking CXX executable tf2_transforms[0m
+[24.381s] [100%] Built target tf2_transforms
+[24.434s] Invoked command in '/home/isc/tk2_ws/build/tf2_transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/isc/tk2_ws/build/tf2_transforms -- -j4 -l4
+[24.439s] Invoking command in '/home/isc/tk2_ws/build/tf2_transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/isc/tk2_ws/build/tf2_transforms
+[24.481s] -- Install configuration: ""
+[24.481s] -- Installing: /home/isc/tk2_ws/install/tf2_transforms/lib/tf2_transforms/tf2_transforms
+[24.490s] -- Set non-toolchain portion of runtime path of "/home/isc/tk2_ws/install/tf2_transforms/lib/tf2_transforms/tf2_transforms" to ""
+[24.491s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/ament_index/resource_index/package_run_dependencies/tf2_transforms
+[24.492s] -- Installing: /home/isc/tk2_ws/install/tf2_transforms/share/ament_index/resource_index/parent_prefix_path/tf2_transforms
+[24.493s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/environment/ament_prefix_path.sh
+[24.493s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/environment/ament_prefix_path.dsv
+[24.494s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/environment/path.sh
+[24.494s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/environment/path.dsv
+[24.495s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/local_setup.bash
+[24.495s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/local_setup.sh
+[24.496s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/local_setup.zsh
+[24.496s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/local_setup.dsv
+[24.497s] -- Installing: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.dsv
+[24.497s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/ament_index/resource_index/packages/tf2_transforms
+[24.498s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/cmake/tf2_transformsConfig.cmake
+[24.498s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/cmake/tf2_transformsConfig-version.cmake
+[24.499s] -- Up-to-date: /home/isc/tk2_ws/install/tf2_transforms/share/tf2_transforms/package.xml
+[24.505s] Invoked command in '/home/isc/tk2_ws/build/tf2_transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/isc/tk2_ws/build/tf2_transforms

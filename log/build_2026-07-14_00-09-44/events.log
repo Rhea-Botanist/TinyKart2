@@ -1,0 +1,1109 @@
+[0.000000] (-) TimerEvent: {}
+[0.002325] (libcamera) JobQueued: {'identifier': 'libcamera', 'dependencies': OrderedDict()}
+[0.002554] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002634] (libcamera) JobStarted: {'identifier': 'libcamera'}
+[0.028716] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.052738] (libcamera) JobProgress: {'identifier': 'libcamera', 'progress': 'meson'}
+[0.053336] (libcamera) Command: {'cmd': ['/usr/bin/meson', 'setup', '--libdir=lib', '--prefix=/home/isc/tk2_ws/install/libcamera', '--buildtype=release', '/home/isc/tk2_ws/build/libcamera', '/home/isc/tk2_ws/src/libcamera'], 'cwd': '/home/isc/tk2_ws/build/libcamera', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'isc', 'SSH_CLIENT': '192.168.50.106 45772 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/isc', 'OLDPWD': '/home/isc/tk2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/isc/tk2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'isc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '14', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/isc/tk2_ws/build/libcamera', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.106 45772 192.168.50.231 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.067512] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.070809] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.076236] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/isc/tk2_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/isc/tk2_ws/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'isc', 'SSH_CLIENT': '192.168.50.106 45772 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/isc', 'OLDPWD': '/home/isc/tk2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/isc/tk2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'isc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '14', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/isc/tk2_ws/build/rplidar_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.106 45772 192.168.50.231 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099249] (-) TimerEvent: {}
+[0.200091] (-) TimerEvent: {}
+[0.301389] (-) TimerEvent: {}
+[0.400142] (rplidar_ros) StdoutLine: {'line': b'[  5%] Built target rplidar_client\n'}
+[0.401565] (-) TimerEvent: {}
+[0.422726] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[0.423560] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_node\n'}
+[0.485410] (rplidar_ros) CommandEnded: {'returncode': 0}
+[0.487646] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[0.501758] (-) TimerEvent: {}
+[0.534574] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/isc/tk2_ws/build/rplidar_ros'], 'cwd': '/home/isc/tk2_ws/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'isc', 'SSH_CLIENT': '192.168.50.106 45772 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/isc', 'OLDPWD': '/home/isc/tk2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/isc/tk2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'isc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '14', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/isc/tk2_ws/build/rplidar_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.106 45772 192.168.50.231 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/isc/tk2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.573031] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.575591] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.580241] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[0.602137] (-) TimerEvent: {}
+[0.637110] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[0.684256] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[0.702259] (-) TimerEvent: {}
+[0.731901] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[0.780511] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[0.802434] (-) TimerEvent: {}
+[0.827929] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[0.875932] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[0.902640] (-) TimerEvent: {}
+[0.923190] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[0.971764] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[1.002812] (-) TimerEvent: {}
+[1.018724] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[1.063799] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[1.070870] (libcamera) StdoutLine: {'line': b'\x1b[1mThe Meson build system\x1b[0m\n'}
+[1.071749] (libcamera) StdoutLine: {'line': b'Version: 1.3.2\n'}
+[1.072379] (libcamera) StdoutLine: {'line': b'Source dir: \x1b[1m/home/isc/tk2_ws/src/libcamera\x1b[0m\n'}
+[1.072886] (libcamera) StdoutLine: {'line': b'Build dir: \x1b[1m/home/isc/tk2_ws/build/libcamera\x1b[0m\n'}
+[1.073465] (libcamera) StdoutLine: {'line': b'Build type: \x1b[1mnative build\x1b[0m\n'}
+[1.103087] (-) TimerEvent: {}
+[1.110907] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[1.157078] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[1.161696] (libcamera) StdoutLine: {'line': b'Project name: \x1b[1mlibcamera\x1b[0m\n'}
+[1.162394] (libcamera) StdoutLine: {'line': b'Project version: \x1b[1m0.7.2\x1b[0m\n'}
+[1.203297] (-) TimerEvent: {}
+[1.204236] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[1.252204] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[1.297762] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[1.303484] (-) TimerEvent: {}
+[1.345339] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[1.390623] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[1.403713] (-) TimerEvent: {}
+[1.441867] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[1.470025] (libcamera) StdoutLine: {'line': b'C compiler for the host machine: \x1b[1mcc\x1b[0m (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[1.470935] (libcamera) StdoutLine: {'line': b'C linker for the host machine: \x1b[1mcc\x1b[0m ld.bfd 2.42\n'}
+[1.490405] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[1.503946] (-) TimerEvent: {}
+[1.537167] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[1.582326] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[1.604148] (-) TimerEvent: {}
+[1.631238] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[1.674626] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[1.704444] (-) TimerEvent: {}
+[1.723560] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[1.774486] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[1.804681] (-) TimerEvent: {}
+[1.816924] (libcamera) StdoutLine: {'line': b'C++ compiler for the host machine: \x1b[1mc++\x1b[0m (gcc 13.3.0 "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[1.817683] (libcamera) StdoutLine: {'line': b'C++ linker for the host machine: \x1b[1mc++\x1b[0m ld.bfd 2.42\n'}
+[1.824508] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[1.871860] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[1.904868] (-) TimerEvent: {}
+[1.920034] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[1.969764] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[2.005127] (-) TimerEvent: {}
+[2.015376] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[2.068144] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[2.105311] (-) TimerEvent: {}
+[2.113825] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[2.160541] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[2.205505] (-) TimerEvent: {}
+[2.206138] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[2.254236] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[2.299769] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[2.305707] (-) TimerEvent: {}
+[2.347651] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[2.401152] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[2.405932] (-) TimerEvent: {}
+[2.433218] (libcamera) StdoutLine: {'line': b'Host machine cpu family: \x1b[1maarch64\x1b[0m\n'}
+[2.434118] (libcamera) StdoutLine: {'line': b'Host machine cpu: \x1b[1maarch64\x1b[0m\n'}
+[2.448717] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[2.495979] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.506164] (-) TimerEvent: {}
+[2.538323] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.582752] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[2.607304] (-) TimerEvent: {}
+[2.630126] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[2.676090] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/isc/tk2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[2.707512] (-) TimerEvent: {}
+[2.729767] (rplidar_ros) CommandEnded: {'returncode': 0}
+[2.807881] (-) TimerEvent: {}
+[2.858719] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[2.865194] (libcamera) StdoutLine: {'line': b'Header "\x1b[1munistd.h\x1b[0m" has symbol "\x1b[1mclose_range\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[2.908121] (-) TimerEvent: {}
+[2.973825] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mfcntl.h\x1b[0m" has symbol "\x1b[1mF_ADD_SEALS\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[3.008347] (-) TimerEvent: {}
+[3.071418] (libcamera) StdoutLine: {'line': b'Header "\x1b[1munistd.h\x1b[0m" has symbol "\x1b[1missetugid\x1b[0m" : \x1b[1;31mNO\x1b[0m \n'}
+[3.108567] (-) TimerEvent: {}
+[3.164648] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mlocale.h\x1b[0m" has symbol "\x1b[1mlocale_t\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[3.208754] (-) TimerEvent: {}
+[3.256844] (libcamera) StdoutLine: {'line': b'Header "\x1b[1msys/mman.h\x1b[0m" has symbol "\x1b[1mmemfd_create\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[3.309018] (-) TimerEvent: {}
+[3.409628] (-) TimerEvent: {}
+[3.414624] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mstdlib.h\x1b[0m" has symbol "\x1b[1msecure_getenv\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[3.509819] (-) TimerEvent: {}
+[3.610438] (-) TimerEvent: {}
+[3.669750] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mversion\x1b[0m" has symbol "\x1b[1m_LIBCPP_VERSION\x1b[0m" : \x1b[1;31mNO\x1b[0m \n'}
+[3.710713] (-) TimerEvent: {}
+[3.757446] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mversion\x1b[0m" has symbol "\x1b[1m__GLIBCXX__\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[3.758166] (libcamera) StdoutLine: {'line': b'\x1b[1mMessage:\x1b[0m Detected C++ standard library: libstdc++\n'}
+[3.796872] (libcamera) StdoutLine: {'line': b'Compiler for C supports arguments -Wno-c99-designator: \x1b[1;31mNO\x1b[0m \n'}
+[3.810852] (-) TimerEvent: {}
+[3.834800] (libcamera) StdoutLine: {'line': b'Found pkg-config: \x1b[1;32mYES\x1b[0m \x1b[1m(/usr/bin/pkg-config)\x1b[0m \x1b[1;34m1.8.1\x1b[0m\n'}
+[3.911131] (-) TimerEvent: {}
+[4.011848] (-) TimerEvent: {}
+[4.112618] (-) TimerEvent: {}
+[4.213429] (-) TimerEvent: {}
+[4.314108] (-) TimerEvent: {}
+[4.414842] (-) TimerEvent: {}
+[4.489843] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlttng-ust\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.13.7\x1b[0m\n'}
+[4.515015] (-) TimerEvent: {}
+[4.531893] (libcamera) StdoutLine: {'line': b'Program \x1b[1m./parser.py\x1b[0m found: \x1b[1;32mYES\x1b[0m (/home/isc/tk2_ws/src/libcamera/utils/codegen/ipc/./parser.py)\n'}
+[4.532648] (libcamera) StdoutLine: {'line': b'Program \x1b[1m./generate.py\x1b[0m found: \x1b[1;32mYES\x1b[0m (/home/isc/tk2_ws/src/libcamera/utils/codegen/ipc/./generate.py)\n'}
+[4.533510] (libcamera) StdoutLine: {'line': b'Program \x1b[1m./extract-docs.py\x1b[0m found: \x1b[1;32mYES\x1b[0m (/home/isc/tk2_ws/src/libcamera/utils/codegen/ipc/./extract-docs.py)\n'}
+[4.615181] (-) TimerEvent: {}
+[4.715826] (-) TimerEvent: {}
+[4.802461] (libcamera) StdoutLine: {'line': b'Configuring \x1b[1mversion.h\x1b[0m using configuration\n'}
+[4.815981] (-) TimerEvent: {}
+[4.827720] (libcamera) StdoutLine: {'line': b'Program \x1b[1mopenssl\x1b[0m found: \x1b[1;32mYES\x1b[0m (/usr/bin/openssl)\n'}
+[4.916166] (-) TimerEvent: {}
+[5.016790] (-) TimerEvent: {}
+[5.041274] (libcamera) StdoutLine: {'line': b'Found CMake: \x1b[1m/usr/bin/cmake\x1b[0m (3.28.3)\n'}
+[5.116995] (-) TimerEvent: {}
+[5.217589] (-) TimerEvent: {}
+[5.318390] (-) TimerEvent: {}
+[5.419093] (-) TimerEvent: {}
+[5.519715] (-) TimerEvent: {}
+[5.620388] (-) TimerEvent: {}
+[5.721054] (-) TimerEvent: {}
+[5.821805] (-) TimerEvent: {}
+[5.922485] (-) TimerEvent: {}
+[6.023086] (-) TimerEvent: {}
+[6.123743] (-) TimerEvent: {}
+[6.224848] (-) TimerEvent: {}
+[6.325571] (-) TimerEvent: {}
+[6.426148] (-) TimerEvent: {}
+[6.526815] (-) TimerEvent: {}
+[6.627511] (-) TimerEvent: {}
+[6.728209] (-) TimerEvent: {}
+[6.828891] (-) TimerEvent: {}
+[6.929670] (-) TimerEvent: {}
+[7.030298] (-) TimerEvent: {}
+[7.130858] (-) TimerEvent: {}
+[7.231436] (-) TimerEvent: {}
+[7.331943] (-) TimerEvent: {}
+[7.432519] (-) TimerEvent: {}
+[7.533076] (-) TimerEvent: {}
+[7.633651] (-) TimerEvent: {}
+[7.700649] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibyuv\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[7.733900] (-) TimerEvent: {}
+[7.748061] (libcamera) StdoutLine: {'line': b'Has header "\x1b[1mlibyuv.h\x1b[0m" : \x1b[1;31mNO\x1b[0m \n'}
+[7.784799] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibjpeg\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.1.5\x1b[0m\n'}
+[7.796089] (libcamera) StderrLine: {'line': b"Cloning into 'libyuv'...\n"}
+[7.834098] (-) TimerEvent: {}
+[7.934900] (-) TimerEvent: {}
+[8.035849] (-) TimerEvent: {}
+[8.136513] (-) TimerEvent: {}
+[8.237339] (-) TimerEvent: {}
+[8.338441] (-) TimerEvent: {}
+[8.438158] (libcamera) StderrLine: {'line': b'remote: Sending approximately 20.35 MiB ...Counting objects: 1   \x1b[K\n'}
+[8.439437] (-) TimerEvent: {}
+[8.440009] (libcamera) StderrLine: {'line': b'remote: Finding sources:   3% (1/32)   \x1b[K\n'}
+[8.441202] (libcamera) StderrLine: {'line': b'remote: Finding sources:   6% (2/32)   \x1b[K\n'}
+[8.442296] (libcamera) StderrLine: {'line': b'remote: Finding sources:   9% (3/32)   \x1b[K\n'}
+[8.443278] (libcamera) StderrLine: {'line': b'remote: Finding sources:  13% (4/32)   \x1b[K\n'}
+[8.444130] (libcamera) StderrLine: {'line': b'remote: Finding sources:  16% (5/32)   \x1b[K\n'}
+[8.444647] (libcamera) StderrLine: {'line': b'remote: Finding sources:  19% (6/32)   \x1b[K\n'}
+[8.445175] (libcamera) StderrLine: {'line': b'remote: Finding sources:  22% (7/32)   \x1b[K\n'}
+[8.445683] (libcamera) StderrLine: {'line': b'remote: Finding sources:  25% (8/32)   \x1b[K\n'}
+[8.446286] (libcamera) StderrLine: {'line': b'remote: Finding sources:  28% (9/32)   \x1b[K\n'}
+[8.446878] (libcamera) StderrLine: {'line': b'remote: Finding sources:  31% (10/32)   \x1b[K\n'}
+[8.447437] (libcamera) StderrLine: {'line': b'remote: Finding sources:  34% (11/32)   \x1b[K\n'}
+[8.447909] (libcamera) StderrLine: {'line': b'remote: Finding sources:  38% (12/32)   \x1b[K\n'}
+[8.448462] (libcamera) StderrLine: {'line': b'remote: Finding sources:  41% (13/32)   \x1b[K\n'}
+[8.449020] (libcamera) StderrLine: {'line': b'remote: Finding sources:  44% (14/32)   \x1b[K\n'}
+[8.449627] (libcamera) StderrLine: {'line': b'remote: Finding sources:  47% (15/32)   \x1b[K\n'}
+[8.450195] (libcamera) StderrLine: {'line': b'remote: Finding sources:  50% (16/32)   \x1b[K\n'}
+[8.450696] (libcamera) StderrLine: {'line': b'remote: Finding sources:  53% (17/32)   \x1b[K\n'}
+[8.451237] (libcamera) StderrLine: {'line': b'remote: Finding sources:  56% (18/32)   \x1b[K\n'}
+[8.451679] (libcamera) StderrLine: {'line': b'remote: Finding sources:  59% (19/32)   \x1b[K\n'}
+[8.452240] (libcamera) StderrLine: {'line': b'remote: Finding sources:  63% (20/32)   \x1b[K\n'}
+[8.452669] (libcamera) StderrLine: {'line': b'remote: Finding sources:  66% (21/32)   \x1b[K\n'}
+[8.453104] (libcamera) StderrLine: {'line': b'remote: Finding sources:  69% (22/32)   \x1b[K\n'}
+[8.453522] (libcamera) StderrLine: {'line': b'remote: Finding sources:  72% (23/32)   \x1b[K\n'}
+[8.453921] (libcamera) StderrLine: {'line': b'remote: Finding sources:  75% (24/32)   \x1b[K\n'}
+[8.454343] (libcamera) StderrLine: {'line': b'remote: Finding sources:  78% (25/32)   \x1b[K\n'}
+[8.454742] (libcamera) StderrLine: {'line': b'remote: Finding sources:  81% (26/32)   \x1b[K\n'}
+[8.455127] (libcamera) StderrLine: {'line': b'remote: Finding sources:  84% (27/32)   \x1b[K\n'}
+[8.455498] (libcamera) StderrLine: {'line': b'remote: Finding sources:  88% (28/32)   \x1b[K\n'}
+[8.455875] (libcamera) StderrLine: {'line': b'remote: Finding sources:  91% (29/32)   \x1b[K\n'}
+[8.456272] (libcamera) StderrLine: {'line': b'remote: Finding sources:  94% (30/32)   \x1b[K\n'}
+[8.456610] (libcamera) StderrLine: {'line': b'remote: Finding sources:  97% (31/32)   \x1b[K\n'}
+[8.456934] (libcamera) StderrLine: {'line': b'remote: Finding sources: 100% (32/32)   \x1b[K\n'}
+[8.457328] (libcamera) StderrLine: {'line': b'remote: Finding sources: 100% (32/32)\x1b[K\n'}
+[8.539609] (-) TimerEvent: {}
+[8.563856] (libcamera) StderrLine: {'line': b'Receiving objects:   0% (1/25991)\n'}
+[8.585483] (libcamera) StderrLine: {'line': b'Receiving objects:   1% (260/25991)\n'}
+[8.600381] (libcamera) StderrLine: {'line': b'Receiving objects:   2% (520/25991)\n'}
+[8.613943] (libcamera) StderrLine: {'line': b'Receiving objects:   3% (780/25991)\n'}
+[8.625465] (libcamera) StderrLine: {'line': b'Receiving objects:   4% (1040/25991)\n'}
+[8.634366] (libcamera) StderrLine: {'line': b'Receiving objects:   5% (1300/25991)\n'}
+[8.639786] (-) TimerEvent: {}
+[8.642579] (libcamera) StderrLine: {'line': b'Receiving objects:   6% (1560/25991)\n'}
+[8.651662] (libcamera) StderrLine: {'line': b'Receiving objects:   7% (1820/25991)\n'}
+[8.659892] (libcamera) StderrLine: {'line': b'Receiving objects:   8% (2080/25991)\n'}
+[8.667737] (libcamera) StderrLine: {'line': b'Receiving objects:   9% (2340/25991)\n'}
+[8.675497] (libcamera) StderrLine: {'line': b'Receiving objects:  10% (2600/25991)\n'}
+[8.682527] (libcamera) StderrLine: {'line': b'Receiving objects:  11% (2860/25991)\n'}
+[8.685930] (libcamera) StderrLine: {'line': b'Receiving objects:  12% (3119/25991)\n'}
+[8.691886] (libcamera) StderrLine: {'line': b'Receiving objects:  13% (3379/25991)\n'}
+[8.695272] (libcamera) StderrLine: {'line': b'Receiving objects:  14% (3639/25991)\n'}
+[8.700092] (libcamera) StderrLine: {'line': b'Receiving objects:  15% (3899/25991)\n'}
+[8.705680] (libcamera) StderrLine: {'line': b'Receiving objects:  16% (4159/25991)\n'}
+[8.713780] (libcamera) StderrLine: {'line': b'Receiving objects:  17% (4419/25991)\n'}
+[8.725922] (libcamera) StderrLine: {'line': b'Receiving objects:  18% (4679/25991)\n'}
+[8.733346] (libcamera) StderrLine: {'line': b'Receiving objects:  19% (4939/25991)\n'}
+[8.739976] (-) TimerEvent: {}
+[8.743854] (libcamera) StderrLine: {'line': b'Receiving objects:  20% (5199/25991)\n'}
+[8.750595] (libcamera) StderrLine: {'line': b'Receiving objects:  21% (5459/25991)\n'}
+[8.760360] (libcamera) StderrLine: {'line': b'Receiving objects:  22% (5719/25991)\n'}
+[8.772021] (libcamera) StderrLine: {'line': b'Receiving objects:  23% (5978/25991)\n'}
+[8.784535] (libcamera) StderrLine: {'line': b'Receiving objects:  24% (6238/25991)\n'}
+[8.788376] (libcamera) StderrLine: {'line': b'Receiving objects:  25% (6498/25991)\n'}
+[8.789718] (libcamera) StderrLine: {'line': b'Receiving objects:  26% (6758/25991)\n'}
+[8.790879] (libcamera) StderrLine: {'line': b'Receiving objects:  27% (7018/25991)\n'}
+[8.791927] (libcamera) StderrLine: {'line': b'Receiving objects:  28% (7278/25991)\n'}
+[8.794637] (libcamera) StderrLine: {'line': b'Receiving objects:  29% (7538/25991)\n'}
+[8.795720] (libcamera) StderrLine: {'line': b'Receiving objects:  30% (7798/25991)\n'}
+[8.796848] (libcamera) StderrLine: {'line': b'Receiving objects:  31% (8058/25991)\n'}
+[8.799572] (libcamera) StderrLine: {'line': b'Receiving objects:  32% (8318/25991)\n'}
+[8.800640] (libcamera) StderrLine: {'line': b'Receiving objects:  33% (8578/25991)\n'}
+[8.801361] (libcamera) StderrLine: {'line': b'Receiving objects:  34% (8837/25991)\n'}
+[8.802401] (libcamera) StderrLine: {'line': b'Receiving objects:  35% (9097/25991)\n'}
+[8.805469] (libcamera) StderrLine: {'line': b'Receiving objects:  36% (9357/25991)\n'}
+[8.807729] (libcamera) StderrLine: {'line': b'Receiving objects:  37% (9617/25991)\n'}
+[8.808359] (libcamera) StderrLine: {'line': b'Receiving objects:  38% (9877/25991)\n'}
+[8.810777] (libcamera) StderrLine: {'line': b'Receiving objects:  39% (10137/25991)\n'}
+[8.811869] (libcamera) StderrLine: {'line': b'Receiving objects:  40% (10397/25991)\n'}
+[8.812864] (libcamera) StderrLine: {'line': b'Receiving objects:  41% (10657/25991)\n'}
+[8.814104] (libcamera) StderrLine: {'line': b'Receiving objects:  42% (10917/25991)\n'}
+[8.817185] (libcamera) StderrLine: {'line': b'Receiving objects:  43% (11177/25991)\n'}
+[8.818170] (libcamera) StderrLine: {'line': b'Receiving objects:  44% (11437/25991)\n'}
+[8.819154] (libcamera) StderrLine: {'line': b'Receiving objects:  45% (11696/25991)\n'}
+[8.822096] (libcamera) StderrLine: {'line': b'Receiving objects:  46% (11956/25991)\n'}
+[8.823914] (libcamera) StderrLine: {'line': b'Receiving objects:  47% (12216/25991)\n'}
+[8.824855] (libcamera) StderrLine: {'line': b'Receiving objects:  48% (12476/25991)\n'}
+[8.827623] (libcamera) StderrLine: {'line': b'Receiving objects:  49% (12736/25991)\n'}
+[8.840129] (-) TimerEvent: {}
+[8.850306] (libcamera) StderrLine: {'line': b'Receiving objects:  50% (12996/25991)\n'}
+[8.935191] (libcamera) StderrLine: {'line': b'Receiving objects:  51% (13256/25991)\n'}
+[8.940295] (-) TimerEvent: {}
+[8.969179] (libcamera) StderrLine: {'line': b'Receiving objects:  52% (13516/25991)\n'}
+[9.040471] (-) TimerEvent: {}
+[9.047799] (libcamera) StderrLine: {'line': b'Receiving objects:  53% (13776/25991)\n'}
+[9.140666] (-) TimerEvent: {}
+[9.211849] (libcamera) StderrLine: {'line': b'Receiving objects:  54% (14036/25991), 4.13 MiB | 8.12 MiB/s\n'}
+[9.240836] (-) TimerEvent: {}
+[9.341425] (-) TimerEvent: {}
+[9.442082] (-) TimerEvent: {}
+[9.452136] (libcamera) StderrLine: {'line': b'Receiving objects:  55% (14296/25991), 4.13 MiB | 8.12 MiB/s\n'}
+[9.542317] (-) TimerEvent: {}
+[9.625096] (libcamera) StderrLine: {'line': b'Receiving objects:  56% (14555/25991), 4.13 MiB | 8.12 MiB/s\n'}
+[9.642494] (-) TimerEvent: {}
+[9.743205] (-) TimerEvent: {}
+[9.751040] (libcamera) StderrLine: {'line': b'Receiving objects:  57% (14815/25991), 6.88 MiB | 6.82 MiB/s\n'}
+[9.843408] (-) TimerEvent: {}
+[9.944003] (-) TimerEvent: {}
+[10.044646] (-) TimerEvent: {}
+[10.045248] (libcamera) StderrLine: {'line': b'Receiving objects:  58% (15075/25991), 6.88 MiB | 6.82 MiB/s\n'}
+[10.138614] (libcamera) StderrLine: {'line': b'Receiving objects:  59% (15335/25991), 9.13 MiB | 6.05 MiB/s\n'}
+[10.144836] (-) TimerEvent: {}
+[10.223198] (libcamera) StderrLine: {'line': b'Receiving objects:  60% (15595/25991), 9.13 MiB | 6.05 MiB/s\n'}
+[10.245039] (-) TimerEvent: {}
+[10.296833] (libcamera) StderrLine: {'line': b'Receiving objects:  61% (15855/25991), 9.13 MiB | 6.05 MiB/s\n'}
+[10.345224] (-) TimerEvent: {}
+[10.444386] (libcamera) StderrLine: {'line': b'Receiving objects:  62% (16115/25991), 9.13 MiB | 6.05 MiB/s\n'}
+[10.445365] (-) TimerEvent: {}
+[10.450559] (libcamera) StderrLine: {'line': b'Receiving objects:  63% (16375/25991), 9.13 MiB | 6.05 MiB/s\n'}
+[10.545611] (-) TimerEvent: {}
+[10.646357] (-) TimerEvent: {}
+[10.698185] (libcamera) StderrLine: {'line': b'Receiving objects:  63% (16392/25991), 9.13 MiB | 6.05 MiB/s\n'}
+[10.746501] (-) TimerEvent: {}
+[10.847091] (-) TimerEvent: {}
+[10.860923] (libcamera) StderrLine: {'line': b'Receiving objects:  64% (16635/25991), 13.12 MiB | 6.17 MiB/s\n'}
+[10.947283] (-) TimerEvent: {}
+[10.949774] (libcamera) StderrLine: {'line': b'Receiving objects:  65% (16895/25991), 13.12 MiB | 6.17 MiB/s\n'}
+[11.047468] (-) TimerEvent: {}
+[11.148069] (-) TimerEvent: {}
+[11.166909] (libcamera) StderrLine: {'line': b'Receiving objects:  66% (17155/25991), 13.12 MiB | 6.17 MiB/s\n'}
+[11.226934] (libcamera) StderrLine: {'line': b'Receiving objects:  67% (17414/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.248260] (-) TimerEvent: {}
+[11.304087] (libcamera) StderrLine: {'line': b'Receiving objects:  68% (17674/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.331382] (libcamera) StderrLine: {'line': b'Receiving objects:  69% (17934/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.338284] (libcamera) StderrLine: {'line': b'Receiving objects:  70% (18194/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.341938] (libcamera) StderrLine: {'line': b'Receiving objects:  71% (18454/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.343521] (libcamera) StderrLine: {'line': b'Receiving objects:  72% (18714/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.344672] (libcamera) StderrLine: {'line': b'Receiving objects:  73% (18974/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.346494] (libcamera) StderrLine: {'line': b'Receiving objects:  74% (19234/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.348379] (-) TimerEvent: {}
+[11.349003] (libcamera) StderrLine: {'line': b'Receiving objects:  75% (19494/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.356178] (libcamera) StderrLine: {'line': b'Receiving objects:  76% (19754/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.359296] (libcamera) StderrLine: {'line': b'Receiving objects:  77% (20014/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.361341] (libcamera) StderrLine: {'line': b'Receiving objects:  78% (20273/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.362600] (libcamera) StderrLine: {'line': b'Receiving objects:  79% (20533/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.365093] (libcamera) StderrLine: {'line': b'Receiving objects:  80% (20793/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.367483] (libcamera) StderrLine: {'line': b'Receiving objects:  81% (21053/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.369047] (libcamera) StderrLine: {'line': b'Receiving objects:  82% (21313/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.370425] (libcamera) StderrLine: {'line': b'Receiving objects:  83% (21573/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.372817] (libcamera) StderrLine: {'line': b'Receiving objects:  84% (21833/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.374122] (libcamera) StderrLine: {'line': b'Receiving objects:  85% (22093/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.377792] (libcamera) StderrLine: {'line': b'Receiving objects:  86% (22353/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.380133] (libcamera) StderrLine: {'line': b'Receiving objects:  87% (22613/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.381524] (libcamera) StderrLine: {'line': b'Receiving objects:  88% (22873/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.382731] (libcamera) StderrLine: {'line': b'Receiving objects:  89% (23132/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.383942] (libcamera) StderrLine: {'line': b'Receiving objects:  90% (23392/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.386689] (libcamera) StderrLine: {'line': b'Receiving objects:  91% (23652/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.388262] (libcamera) StderrLine: {'line': b'Receiving objects:  92% (23912/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.389926] (libcamera) StderrLine: {'line': b'Receiving objects:  93% (24172/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.391098] (libcamera) StderrLine: {'line': b'Receiving objects:  94% (24432/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.393367] (libcamera) StderrLine: {'line': b'Receiving objects:  95% (24692/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.396894] (libcamera) StderrLine: {'line': b'Receiving objects:  96% (24952/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.400042] (libcamera) StderrLine: {'line': b'Receiving objects:  97% (25212/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.402517] (libcamera) StderrLine: {'line': b'Receiving objects:  98% (25472/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.407003] (libcamera) StderrLine: {'line': b'Receiving objects:  99% (25732/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.407735] (libcamera) StderrLine: {'line': b'remote: Total 25991 (delta 19786), reused 25976 (delta 19786)\x1b[K\n'}
+[11.412213] (libcamera) StderrLine: {'line': b'Receiving objects: 100% (25991/25991), 16.75 MiB | 6.29 MiB/s\n'}
+[11.412832] (libcamera) StderrLine: {'line': b'Receiving objects: 100% (25991/25991), 20.01 MiB | 6.76 MiB/s, done.\n'}
+[11.422777] (libcamera) StderrLine: {'line': b'Resolving deltas:   0% (0/19786)\n'}
+[11.430237] (libcamera) StderrLine: {'line': b'Resolving deltas:   1% (198/19786)\n'}
+[11.434274] (libcamera) StderrLine: {'line': b'Resolving deltas:   2% (396/19786)\n'}
+[11.439403] (libcamera) StderrLine: {'line': b'Resolving deltas:   3% (594/19786)\n'}
+[11.444530] (libcamera) StderrLine: {'line': b'Resolving deltas:   4% (792/19786)\n'}
+[11.449152] (-) TimerEvent: {}
+[11.452250] (libcamera) StderrLine: {'line': b'Resolving deltas:   5% (990/19786)\n'}
+[11.458961] (libcamera) StderrLine: {'line': b'Resolving deltas:   6% (1188/19786)\n'}
+[11.465659] (libcamera) StderrLine: {'line': b'Resolving deltas:   7% (1386/19786)\n'}
+[11.471114] (libcamera) StderrLine: {'line': b'Resolving deltas:   8% (1583/19786)\n'}
+[11.476891] (libcamera) StderrLine: {'line': b'Resolving deltas:   9% (1781/19786)\n'}
+[11.480972] (libcamera) StderrLine: {'line': b'Resolving deltas:  10% (1979/19786)\n'}
+[11.483779] (libcamera) StderrLine: {'line': b'Resolving deltas:  11% (2177/19786)\n'}
+[11.487650] (libcamera) StderrLine: {'line': b'Resolving deltas:  12% (2375/19786)\n'}
+[11.489660] (libcamera) StderrLine: {'line': b'Resolving deltas:  13% (2573/19786)\n'}
+[11.494691] (libcamera) StderrLine: {'line': b'Resolving deltas:  14% (2771/19786)\n'}
+[11.497817] (libcamera) StderrLine: {'line': b'Resolving deltas:  15% (2968/19786)\n'}
+[11.501396] (libcamera) StderrLine: {'line': b'Resolving deltas:  16% (3166/19786)\n'}
+[11.504524] (libcamera) StderrLine: {'line': b'Resolving deltas:  17% (3364/19786)\n'}
+[11.507640] (libcamera) StderrLine: {'line': b'Resolving deltas:  18% (3562/19786)\n'}
+[11.510657] (libcamera) StderrLine: {'line': b'Resolving deltas:  19% (3761/19786)\n'}
+[11.513696] (libcamera) StderrLine: {'line': b'Resolving deltas:  20% (3958/19786)\n'}
+[11.516822] (libcamera) StderrLine: {'line': b'Resolving deltas:  21% (4156/19786)\n'}
+[11.519801] (libcamera) StderrLine: {'line': b'Resolving deltas:  22% (4353/19786)\n'}
+[11.522395] (libcamera) StderrLine: {'line': b'Resolving deltas:  23% (4551/19786)\n'}
+[11.524760] (libcamera) StderrLine: {'line': b'Resolving deltas:  24% (4750/19786)\n'}
+[11.526913] (libcamera) StderrLine: {'line': b'Resolving deltas:  25% (4947/19786)\n'}
+[11.530007] (libcamera) StderrLine: {'line': b'Resolving deltas:  26% (5145/19786)\n'}
+[11.532850] (libcamera) StderrLine: {'line': b'Resolving deltas:  27% (5343/19786)\n'}
+[11.535160] (libcamera) StderrLine: {'line': b'Resolving deltas:  28% (5541/19786)\n'}
+[11.537270] (libcamera) StderrLine: {'line': b'Resolving deltas:  29% (5738/19786)\n'}
+[11.540422] (libcamera) StderrLine: {'line': b'Resolving deltas:  30% (5936/19786)\n'}
+[11.543392] (libcamera) StderrLine: {'line': b'Resolving deltas:  31% (6135/19786)\n'}
+[11.546557] (libcamera) StderrLine: {'line': b'Resolving deltas:  32% (6332/19786)\n'}
+[11.549165] (libcamera) StderrLine: {'line': b'Resolving deltas:  33% (6530/19786)\n'}
+[11.549782] (-) TimerEvent: {}
+[11.552356] (libcamera) StderrLine: {'line': b'Resolving deltas:  34% (6728/19786)\n'}
+[11.554880] (libcamera) StderrLine: {'line': b'Resolving deltas:  35% (6926/19786)\n'}
+[11.557365] (libcamera) StderrLine: {'line': b'Resolving deltas:  36% (7123/19786)\n'}
+[11.560081] (libcamera) StderrLine: {'line': b'Resolving deltas:  37% (7322/19786)\n'}
+[11.562679] (libcamera) StderrLine: {'line': b'Resolving deltas:  38% (7519/19786)\n'}
+[11.565329] (libcamera) StderrLine: {'line': b'Resolving deltas:  39% (7717/19786)\n'}
+[11.568079] (libcamera) StderrLine: {'line': b'Resolving deltas:  40% (7916/19786)\n'}
+[11.571214] (libcamera) StderrLine: {'line': b'Resolving deltas:  41% (8113/19786)\n'}
+[11.579195] (libcamera) StderrLine: {'line': b'Resolving deltas:  42% (8311/19786)\n'}
+[11.618369] (libcamera) StderrLine: {'line': b'Resolving deltas:  43% (8508/19786)\n'}
+[11.623225] (libcamera) StderrLine: {'line': b'Resolving deltas:  44% (8706/19786)\n'}
+[11.631131] (libcamera) StderrLine: {'line': b'Resolving deltas:  45% (8904/19786)\n'}
+[11.633275] (libcamera) StderrLine: {'line': b'Resolving deltas:  46% (9102/19786)\n'}
+[11.639201] (libcamera) StderrLine: {'line': b'Resolving deltas:  47% (9300/19786)\n'}
+[11.642577] (libcamera) StderrLine: {'line': b'Resolving deltas:  48% (9498/19786)\n'}
+[11.643554] (libcamera) StderrLine: {'line': b'Resolving deltas:  49% (9696/19786)\n'}
+[11.644170] (libcamera) StderrLine: {'line': b'Resolving deltas:  50% (9893/19786)\n'}
+[11.646771] (libcamera) StderrLine: {'line': b'Resolving deltas:  51% (10091/19786)\n'}
+[11.650030] (-) TimerEvent: {}
+[11.691704] (libcamera) StderrLine: {'line': b'Resolving deltas:  52% (10289/19786)\n'}
+[11.750234] (-) TimerEvent: {}
+[11.754624] (libcamera) StderrLine: {'line': b'Resolving deltas:  53% (10487/19786)\n'}
+[11.801102] (libcamera) StderrLine: {'line': b'Resolving deltas:  54% (10685/19786)\n'}
+[11.850440] (-) TimerEvent: {}
+[11.855880] (libcamera) StderrLine: {'line': b'Resolving deltas:  55% (10883/19786)\n'}
+[11.874612] (libcamera) StderrLine: {'line': b'Resolving deltas:  56% (11081/19786)\n'}
+[11.950636] (-) TimerEvent: {}
+[11.978328] (libcamera) StderrLine: {'line': b'Resolving deltas:  57% (11279/19786)\n'}
+[12.050851] (-) TimerEvent: {}
+[12.072330] (libcamera) StderrLine: {'line': b'Resolving deltas:  58% (11476/19786)\n'}
+[12.151083] (-) TimerEvent: {}
+[12.187602] (libcamera) StderrLine: {'line': b'Resolving deltas:  59% (11674/19786)\n'}
+[12.247979] (libcamera) StderrLine: {'line': b'Resolving deltas:  60% (11872/19786)\n'}
+[12.251265] (-) TimerEvent: {}
+[12.268191] (libcamera) StderrLine: {'line': b'Resolving deltas:  61% (12070/19786)\n'}
+[12.327970] (libcamera) StderrLine: {'line': b'Resolving deltas:  62% (12268/19786)\n'}
+[12.351476] (-) TimerEvent: {}
+[12.416258] (libcamera) StderrLine: {'line': b'Resolving deltas:  63% (12466/19786)\n'}
+[12.447623] (libcamera) StderrLine: {'line': b'Resolving deltas:  63% (12600/19786)\n'}
+[12.451727] (-) TimerEvent: {}
+[12.534705] (libcamera) StderrLine: {'line': b'Resolving deltas:  64% (12664/19786)\n'}
+[12.551888] (-) TimerEvent: {}
+[12.574818] (libcamera) StderrLine: {'line': b'Resolving deltas:  65% (12861/19786)\n'}
+[12.576896] (libcamera) StderrLine: {'line': b'Resolving deltas:  66% (13059/19786)\n'}
+[12.579079] (libcamera) StderrLine: {'line': b'Resolving deltas:  67% (13258/19786)\n'}
+[12.581120] (libcamera) StderrLine: {'line': b'Resolving deltas:  68% (13455/19786)\n'}
+[12.583031] (libcamera) StderrLine: {'line': b'Resolving deltas:  69% (13653/19786)\n'}
+[12.584815] (libcamera) StderrLine: {'line': b'Resolving deltas:  70% (13851/19786)\n'}
+[12.586862] (libcamera) StderrLine: {'line': b'Resolving deltas:  71% (14049/19786)\n'}
+[12.631375] (libcamera) StderrLine: {'line': b'Resolving deltas:  72% (14246/19786)\n'}
+[12.652123] (-) TimerEvent: {}
+[12.745276] (libcamera) StderrLine: {'line': b'Resolving deltas:  73% (14444/19786)\n'}
+[12.752326] (-) TimerEvent: {}
+[12.838338] (libcamera) StderrLine: {'line': b'Resolving deltas:  74% (14642/19786)\n'}
+[12.852545] (-) TimerEvent: {}
+[12.862622] (libcamera) StderrLine: {'line': b'Resolving deltas:  75% (14840/19786)\n'}
+[12.951844] (libcamera) StderrLine: {'line': b'Resolving deltas:  76% (15038/19786)\n'}
+[12.952538] (-) TimerEvent: {}
+[12.998569] (libcamera) StderrLine: {'line': b'Resolving deltas:  77% (15236/19786)\n'}
+[13.052740] (-) TimerEvent: {}
+[13.062427] (libcamera) StderrLine: {'line': b'Resolving deltas:  78% (15434/19786)\n'}
+[13.115106] (libcamera) StderrLine: {'line': b'Resolving deltas:  79% (15631/19786)\n'}
+[13.152990] (-) TimerEvent: {}
+[13.179639] (libcamera) StderrLine: {'line': b'Resolving deltas:  80% (15829/19786)\n'}
+[13.218937] (libcamera) StderrLine: {'line': b'Resolving deltas:  81% (16027/19786)\n'}
+[13.242026] (libcamera) StderrLine: {'line': b'Resolving deltas:  82% (16225/19786)\n'}
+[13.253132] (-) TimerEvent: {}
+[13.280545] (libcamera) StderrLine: {'line': b'Resolving deltas:  83% (16423/19786)\n'}
+[13.307424] (libcamera) StderrLine: {'line': b'Resolving deltas:  84% (16621/19786)\n'}
+[13.334785] (libcamera) StderrLine: {'line': b'Resolving deltas:  85% (16819/19786)\n'}
+[13.353390] (-) TimerEvent: {}
+[13.373523] (libcamera) StderrLine: {'line': b'Resolving deltas:  86% (17016/19786)\n'}
+[13.411338] (libcamera) StderrLine: {'line': b'Resolving deltas:  87% (17214/19786)\n'}
+[13.416107] (libcamera) StderrLine: {'line': b'Resolving deltas:  88% (17412/19786)\n'}
+[13.436597] (libcamera) StderrLine: {'line': b'Resolving deltas:  88% (17437/19786)\n'}
+[13.453569] (-) TimerEvent: {}
+[13.464802] (libcamera) StderrLine: {'line': b'Resolving deltas:  89% (17610/19786)\n'}
+[13.475845] (libcamera) StderrLine: {'line': b'Resolving deltas:  90% (17808/19786)\n'}
+[13.539656] (libcamera) StderrLine: {'line': b'Resolving deltas:  91% (18006/19786)\n'}
+[13.553773] (-) TimerEvent: {}
+[13.596387] (libcamera) StderrLine: {'line': b'Resolving deltas:  92% (18204/19786)\n'}
+[13.637568] (libcamera) StderrLine: {'line': b'Resolving deltas:  93% (18401/19786)\n'}
+[13.654037] (-) TimerEvent: {}
+[13.672870] (libcamera) StderrLine: {'line': b'Resolving deltas:  94% (18599/19786)\n'}
+[13.694962] (libcamera) StderrLine: {'line': b'Resolving deltas:  95% (18797/19786)\n'}
+[13.736291] (libcamera) StderrLine: {'line': b'Resolving deltas:  96% (18995/19786)\n'}
+[13.754220] (-) TimerEvent: {}
+[13.839672] (libcamera) StderrLine: {'line': b'Resolving deltas:  97% (19193/19786)\n'}
+[13.854406] (-) TimerEvent: {}
+[13.878374] (libcamera) StderrLine: {'line': b'Resolving deltas:  98% (19391/19786)\n'}
+[13.910083] (libcamera) StderrLine: {'line': b'Resolving deltas:  99% (19589/19786)\n'}
+[13.910775] (libcamera) StderrLine: {'line': b'Resolving deltas: 100% (19786/19786)\n'}
+[13.911430] (libcamera) StderrLine: {'line': b'Resolving deltas: 100% (19786/19786), done.\n'}
+[13.954700] (-) TimerEvent: {}
+[14.055373] (-) TimerEvent: {}
+[14.156333] (-) TimerEvent: {}
+[14.257079] (-) TimerEvent: {}
+[14.357766] (-) TimerEvent: {}
+[14.458779] (-) TimerEvent: {}
+[14.560135] (-) TimerEvent: {}
+[14.661089] (-) TimerEvent: {}
+[14.761680] (-) TimerEvent: {}
+[14.862303] (-) TimerEvent: {}
+[14.899982] (libcamera) StderrLine: {'line': b'HEAD is now at 500f4565 For for ARM32 build when built with __SOFTFP__\n'}
+[14.902505] (libcamera) StdoutLine: {'line': b'Applying diff file "libyuv/0004-CMakeLists.txt-Do-not-enable-NEON-for-armel-armhf.patch"\n'}
+[14.915686] (libcamera) StdoutLine: {'line': b'\n'}
+[14.916456] (libcamera) StdoutLine: {'line': b'Executing subproject \x1b[1mlibyuv\x1b[0m method \x1b[1mcmake\x1b[0m \n'}
+[14.917135] (libcamera) StdoutLine: {'line': b'\n'}
+[14.959340] (libcamera) StdoutLine: {'line': b'libyuv| Found CMake: \x1b[1m/usr/bin/cmake\x1b[0m (3.28.3)\n'}
+[14.962432] (-) TimerEvent: {}
+[14.963579] (libcamera) StdoutLine: {'line': b'\n'}
+[14.964557] (libcamera) StdoutLine: {'line': b'| Configuring the build directory with \x1b[1mCMake\x1b[0m version \x1b[1;36m3.28.3\x1b[0m\n'}
+[14.965029] (libcamera) StdoutLine: {'line': b'| \x1b[1mRunning CMake with:\x1b[0m -G Ninja -DCMAKE_INSTALL_PREFIX=/home/isc/tk2_ws/install/libcamera -DCMAKE_POSITION_INDEPENDENT_CODE=ON\n'}
+[14.965496] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - build directory:         \x1b[0m /home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build\n'}
+[14.965912] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - source directory:        \x1b[0m /home/isc/tk2_ws/src/libcamera/subprojects/libyuv\n'}
+[14.966368] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - toolchain file:          \x1b[0m /home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build/CMakeMesonToolchainFile.cmake\n'}
+[14.966770] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - preload file:            \x1b[0m /usr/lib/python3/dist-packages/mesonbuild/cmake/data/preload.cmake\n'}
+[14.967187] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - trace args:              \x1b[0m --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt\n'}
+[14.967719] (libcamera) StdoutLine: {'line': b'| \x1b[1m  - disabled policy warnings:\x1b[0m [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]\n'}
+[14.968236] (libcamera) StdoutLine: {'line': b'\n'}
+[15.062649] (-) TimerEvent: {}
+[15.163411] (-) TimerEvent: {}
+[15.264195] (-) TimerEvent: {}
+[15.333848] (libcamera) StdoutLine: {'line': b'| Put cmake in trace mode, but with variables expanded.\n'}
+[15.334652] (libcamera) StdoutLine: {'line': b'| Put cmake in trace mode and sets the trace output format.\n'}
+[15.335256] (libcamera) StdoutLine: {'line': b'| Not searching for unused variables given on the command line.\n'}
+[15.335711] (libcamera) StdoutLine: {'line': b'| Put cmake in trace mode and redirect trace output to a file instead of stderr.\n'}
+[15.336157] (libcamera) StdoutLine: {'line': b'| Trace will be written to cmake_trace.txt\n'}
+[15.336579] (libcamera) StdoutLine: {'line': b'| -- The C compiler identification is GNU 13.3.0\n'}
+[15.364381] (-) TimerEvent: {}
+[15.465027] (-) TimerEvent: {}
+[15.565820] (-) TimerEvent: {}
+[15.666555] (-) TimerEvent: {}
+[15.681890] (libcamera) StdoutLine: {'line': b'| -- The CXX compiler identification is GNU 13.3.0\n'}
+[15.702616] (libcamera) StdoutLine: {'line': b'| CMake Warning (dev) at /usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake:224 (find_program):\n'}
+[15.703381] (libcamera) StdoutLine: {'line': b'| Policy CMP0126 is not set: set(CACHE) does not remove a normal variable of\n'}
+[15.704288] (libcamera) StdoutLine: {'line': b'| the same name.  Run "cmake --help-policy CMP0126" for policy details.  Use\n'}
+[15.704987] (libcamera) StdoutLine: {'line': b'| the cmake_policy command to set the policy and suppress this warning.\n'}
+[15.705669] (libcamera) StdoutLine: {'line': b'\n'}
+[15.706303] (libcamera) StdoutLine: {'line': b'| For compatibility with older versions of CMake, normal variable\n'}
+[15.706865] (libcamera) StdoutLine: {'line': b'| "CMAKE_TAPI" will be removed from the current scope.\n'}
+[15.707391] (libcamera) StdoutLine: {'line': b'| Call Stack (most recent call first):\n'}
+[15.707811] (libcamera) StdoutLine: {'line': b'| /usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:202 (include)\n'}
+[15.708295] (libcamera) StdoutLine: {'line': b'| CMakeLists.txt:6 (project)\n'}
+[15.708699] (libcamera) StdoutLine: {'line': b'| This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[15.709156] (libcamera) StdoutLine: {'line': b'\n'}
+[15.766806] (-) TimerEvent: {}
+[15.815891] (libcamera) StdoutLine: {'line': b'| -- Detecting C compiler ABI info\n'}
+[15.867031] (-) TimerEvent: {}
+[15.967643] (-) TimerEvent: {}
+[16.068320] (-) TimerEvent: {}
+[16.169005] (-) TimerEvent: {}
+[16.179449] (libcamera) StdoutLine: {'line': b'| -- Detecting C compiler ABI info - done\n'}
+[16.269134] (-) TimerEvent: {}
+[16.297528] (libcamera) StdoutLine: {'line': b'| -- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[16.298856] (libcamera) StdoutLine: {'line': b'| -- Detecting C compile features\n'}
+[16.303335] (libcamera) StdoutLine: {'line': b'| -- Detecting C compile features - done\n'}
+[16.369362] (-) TimerEvent: {}
+[16.384620] (libcamera) StdoutLine: {'line': b'| -- Detecting CXX compiler ABI info\n'}
+[16.469537] (-) TimerEvent: {}
+[16.570128] (-) TimerEvent: {}
+[16.670863] (-) TimerEvent: {}
+[16.771636] (-) TimerEvent: {}
+[16.790833] (libcamera) StdoutLine: {'line': b'| -- Detecting CXX compiler ABI info - done\n'}
+[16.871810] (-) TimerEvent: {}
+[16.913016] (libcamera) StdoutLine: {'line': b'| -- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[16.914541] (libcamera) StdoutLine: {'line': b'| -- Detecting CXX compile features\n'}
+[16.920111] (libcamera) StdoutLine: {'line': b'| -- Detecting CXX compile features - done\n'}
+[16.937278] (libcamera) StdoutLine: {'line': b'| -- Performing Test CAN_COMPILE_SME\n'}
+[16.972018] (-) TimerEvent: {}
+[17.072609] (-) TimerEvent: {}
+[17.107088] (libcamera) StdoutLine: {'line': b'| -- Performing Test CAN_COMPILE_SME - Failed\n'}
+[17.172786] (-) TimerEvent: {}
+[17.273441] (-) TimerEvent: {}
+[17.374114] (-) TimerEvent: {}
+[17.474759] (-) TimerEvent: {}
+[17.481995] (libcamera) StdoutLine: {'line': b'| -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80")\n'}
+[17.575005] (-) TimerEvent: {}
+[17.608719] (libcamera) StdoutLine: {'line': b'| -- Configuring done (2.6s)\n'}
+[17.667311] (libcamera) StdoutLine: {'line': b'| -- Generating done (0.0s)\n'}
+[17.675163] (-) TimerEvent: {}
+[17.716556] (libcamera) StdoutLine: {'line': b'| -- Build files have been written to: /home/isc/tk2_ws/build/libcamera/subprojects/libyuv/__CMake_build\n'}
+[17.732028] (libcamera) StdoutLine: {'line': b'\n'}
+[17.732603] (libcamera) StdoutLine: {'line': b'libyuv| CMake configuration: \x1b[1;32mSUCCEEDED\x1b[0m\n'}
+[17.775385] (-) TimerEvent: {}
+[17.876040] (-) TimerEvent: {}
+[17.976577] (-) TimerEvent: {}
+[18.077151] (-) TimerEvent: {}
+[18.177670] (-) TimerEvent: {}
+[18.278213] (-) TimerEvent: {}
+[18.378711] (-) TimerEvent: {}
+[18.413346] (libcamera) StdoutLine: {'line': b'libyuv| CMake project \x1b[1mYUV\x1b[0m has \x1b[1m8\x1b[0m build targets.\n'}
+[18.433167] (libcamera) StdoutLine: {'line': b'libyuv| Generated Meson AST: /home/isc/tk2_ws/build/libcamera/subprojects/libyuv/meson.build\n'}
+[18.435874] (libcamera) StdoutLine: {'line': b'libyuv| Project name: \x1b[1mYUV\x1b[0m\n'}
+[18.436501] (libcamera) StdoutLine: {'line': b'libyuv| Project version: \x1b[1mundefined\x1b[0m\n'}
+[18.437122] (libcamera) StdoutLine: {'line': b'libyuv| C compiler for the host machine: \x1b[1mcc\x1b[0m (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[18.437794] (libcamera) StdoutLine: {'line': b'libyuv| C linker for the host machine: \x1b[1mcc\x1b[0m ld.bfd 2.42\n'}
+[18.438299] (libcamera) StdoutLine: {'line': b'libyuv| C++ compiler for the host machine: \x1b[1mc++\x1b[0m (gcc 13.3.0 "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[18.438729] (libcamera) StdoutLine: {'line': b'libyuv| C++ linker for the host machine: \x1b[1mc++\x1b[0m ld.bfd 2.42\n'}
+[18.478866] (-) TimerEvent: {}
+[18.499319] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[18.500135] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[18.500658] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[18.501125] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[18.501529] (libcamera) StdoutLine: {'line': b'\n'}
+[18.501929] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[18.502437] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[18.502854] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[18.503372] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[18.503860] (libcamera) StdoutLine: {'line': b'\n'}
+[18.504403] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[18.504873] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[18.505333] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[18.505731] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[18.506160] (libcamera) StdoutLine: {'line': b'\n'}
+[18.515229] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[18.516068] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[18.516587] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[18.517012] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[18.517501] (libcamera) StdoutLine: {'line': b'\n'}
+[18.517920] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[18.518407] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[18.518853] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[18.519372] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[18.519868] (libcamera) StdoutLine: {'line': b'\n'}
+[18.520392] (libcamera) StdoutLine: {'line': b'libyuv| \x1b[1;33mWARNING:\x1b[0m extract_all_objects called without setting recursive\n'}
+[18.520807] (libcamera) StdoutLine: {'line': b'libyuv| keyword argument. Meson currently defaults to\n'}
+[18.521251] (libcamera) StdoutLine: {'line': b'libyuv| non-recursive to maintain backward compatibility but\n'}
+[18.521646] (libcamera) StdoutLine: {'line': b'libyuv| the default will be changed in the future.\n'}
+[18.522032] (libcamera) StdoutLine: {'line': b'\n'}
+[18.537110] (libcamera) StdoutLine: {'line': b'libyuv| Build targets in project: \x1b[1m36\x1b[0m\n'}
+[18.537750] (libcamera) StdoutLine: {'line': b'libyuv| Subproject \x1b[1mlibyuv\x1b[0m finished.\n'}
+[18.538361] (libcamera) StdoutLine: {'line': b'\n'}
+[18.541096] (libcamera) StdoutLine: {'line': b'\x1b[1;33mWARNING:\x1b[0m Build target libyuv-static has no sources. This was never supposed to be allowed but did because of a bug, support will be removed in a future release of Meson\n'}
+[18.579044] (-) TimerEvent: {}
+[18.679626] (-) TimerEvent: {}
+[18.769814] (libcamera) StdoutLine: {'line': b'Library \x1b[1matomic\x1b[0m found: \x1b[1;32mYES\x1b[0m\n'}
+[18.776671] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mthreads\x1b[0m found: \x1b[1;32mYES\x1b[0m\n'}
+[18.779767] (-) TimerEvent: {}
+[18.848646] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibdw\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[18.879932] (-) TimerEvent: {}
+[18.898463] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibunwind\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[18.980164] (-) TimerEvent: {}
+[18.987257] (libcamera) StdoutLine: {'line': b'Header "\x1b[1mexecinfo.h\x1b[0m" has symbol "\x1b[1mbacktrace\x1b[0m" : \x1b[1;32mYES\x1b[0m \n'}
+[19.080403] (-) TimerEvent: {}
+[19.181140] (-) TimerEvent: {}
+[19.215252] (libcamera) StdoutLine: {'line': b'Library \x1b[1mrt\x1b[0m found: \x1b[1;32mYES\x1b[0m\n'}
+[19.264065] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibpisp\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[19.264660] (libcamera) StdoutLine: {'line': b'Looking for a fallback subproject for the dependency \x1b[1mlibpisp\x1b[0m\n'}
+[19.272157] (libcamera) StderrLine: {'line': b"Cloning into 'libpisp'...\n"}
+[19.281285] (-) TimerEvent: {}
+[19.381890] (-) TimerEvent: {}
+[19.482851] (-) TimerEvent: {}
+[19.583872] (-) TimerEvent: {}
+[19.684844] (-) TimerEvent: {}
+[19.785801] (-) TimerEvent: {}
+[19.886479] (-) TimerEvent: {}
+[19.987461] (-) TimerEvent: {}
+[20.016826] (libcamera) StderrLine: {'line': b'remote: Enumerating objects: 109, done.\x1b[K\n'}
+[20.025602] (libcamera) StderrLine: {'line': b'remote: Counting objects:   0% (1/109)\x1b[K\n'}
+[20.027217] (libcamera) StderrLine: {'line': b'remote: Counting objects:   1% (2/109)\x1b[K\n'}
+[20.027898] (libcamera) StderrLine: {'line': b'remote: Counting objects:   2% (3/109)\x1b[K\n'}
+[20.028579] (libcamera) StderrLine: {'line': b'remote: Counting objects:   3% (4/109)\x1b[K\n'}
+[20.029132] (libcamera) StderrLine: {'line': b'remote: Counting objects:   4% (5/109)\x1b[K\n'}
+[20.029640] (libcamera) StderrLine: {'line': b'remote: Counting objects:   5% (6/109)\x1b[K\n'}
+[20.030148] (libcamera) StderrLine: {'line': b'remote: Counting objects:   6% (7/109)\x1b[K\n'}
+[20.030638] (libcamera) StderrLine: {'line': b'remote: Counting objects:   7% (8/109)\x1b[K\n'}
+[20.031154] (libcamera) StderrLine: {'line': b'remote: Counting objects:   8% (9/109)\x1b[K\n'}
+[20.031648] (libcamera) StderrLine: {'line': b'remote: Counting objects:   9% (10/109)\x1b[K\n'}
+[20.032074] (libcamera) StderrLine: {'line': b'remote: Counting objects:  10% (11/109)\x1b[K\n'}
+[20.032498] (libcamera) StderrLine: {'line': b'remote: Counting objects:  11% (12/109)\x1b[K\n'}
+[20.032885] (libcamera) StderrLine: {'line': b'remote: Counting objects:  12% (14/109)\x1b[K\n'}
+[20.033327] (libcamera) StderrLine: {'line': b'remote: Counting objects:  13% (15/109)\x1b[K\n'}
+[20.033712] (libcamera) StderrLine: {'line': b'remote: Counting objects:  14% (16/109)\x1b[K\n'}
+[20.034069] (libcamera) StderrLine: {'line': b'remote: Counting objects:  15% (17/109)\x1b[K\n'}
+[20.034418] (libcamera) StderrLine: {'line': b'remote: Counting objects:  16% (18/109)\x1b[K\n'}
+[20.034735] (libcamera) StderrLine: {'line': b'remote: Counting objects:  17% (19/109)\x1b[K\n'}
+[20.035079] (libcamera) StderrLine: {'line': b'remote: Counting objects:  18% (20/109)\x1b[K\n'}
+[20.035421] (libcamera) StderrLine: {'line': b'remote: Counting objects:  19% (21/109)\x1b[K\n'}
+[20.035738] (libcamera) StderrLine: {'line': b'remote: Counting objects:  20% (22/109)\x1b[K\n'}
+[20.036086] (libcamera) StderrLine: {'line': b'remote: Counting objects:  21% (23/109)\x1b[K\n'}
+[20.036430] (libcamera) StderrLine: {'line': b'remote: Counting objects:  22% (24/109)\x1b[K\n'}
+[20.036750] (libcamera) StderrLine: {'line': b'remote: Counting objects:  23% (26/109)\x1b[K\n'}
+[20.037106] (libcamera) StderrLine: {'line': b'remote: Counting objects:  24% (27/109)\x1b[K\n'}
+[20.037454] (libcamera) StderrLine: {'line': b'remote: Counting objects:  25% (28/109)\x1b[K\n'}
+[20.037776] (libcamera) StderrLine: {'line': b'remote: Counting objects:  26% (29/109)\x1b[K\n'}
+[20.038143] (libcamera) StderrLine: {'line': b'remote: Counting objects:  27% (30/109)\x1b[K\n'}
+[20.038482] (libcamera) StderrLine: {'line': b'remote: Counting objects:  28% (31/109)\x1b[K\n'}
+[20.038799] (libcamera) StderrLine: {'line': b'remote: Counting objects:  29% (32/109)\x1b[K\n'}
+[20.039155] (libcamera) StderrLine: {'line': b'remote: Counting objects:  30% (33/109)\x1b[K\n'}
+[20.039488] (libcamera) StderrLine: {'line': b'remote: Counting objects:  31% (34/109)\x1b[K\n'}
+[20.039801] (libcamera) StderrLine: {'line': b'remote: Counting objects:  32% (35/109)\x1b[K\n'}
+[20.040151] (libcamera) StderrLine: {'line': b'remote: Counting objects:  33% (36/109)\x1b[K\n'}
+[20.040488] (libcamera) StderrLine: {'line': b'remote: Counting objects:  34% (38/109)\x1b[K\n'}
+[20.040803] (libcamera) StderrLine: {'line': b'remote: Counting objects:  35% (39/109)\x1b[K\n'}
+[20.041171] (libcamera) StderrLine: {'line': b'remote: Counting objects:  36% (40/109)\x1b[K\n'}
+[20.041553] (libcamera) StderrLine: {'line': b'remote: Counting objects:  37% (41/109)\x1b[K\n'}
+[20.041883] (libcamera) StderrLine: {'line': b'remote: Counting objects:  38% (42/109)\x1b[K\n'}
+[20.042253] (libcamera) StderrLine: {'line': b'remote: Counting objects:  39% (43/109)\x1b[K\n'}
+[20.042583] (libcamera) StderrLine: {'line': b'remote: Counting objects:  40% (44/109)\x1b[K\n'}
+[20.042935] (libcamera) StderrLine: {'line': b'remote: Counting objects:  41% (45/109)\x1b[K\n'}
+[20.043336] (libcamera) StderrLine: {'line': b'remote: Counting objects:  42% (46/109)\x1b[K\n'}
+[20.043662] (libcamera) StderrLine: {'line': b'remote: Counting objects:  43% (47/109)\x1b[K\n'}
+[20.044017] (libcamera) StderrLine: {'line': b'remote: Counting objects:  44% (48/109)\x1b[K\n'}
+[20.044379] (libcamera) StderrLine: {'line': b'remote: Counting objects:  45% (50/109)\x1b[K\n'}
+[20.044702] (libcamera) StderrLine: {'line': b'remote: Counting objects:  46% (51/109)\x1b[K\n'}
+[20.045036] (libcamera) StderrLine: {'line': b'remote: Counting objects:  47% (52/109)\x1b[K\n'}
+[20.045390] (libcamera) StderrLine: {'line': b'remote: Counting objects:  48% (53/109)\x1b[K\n'}
+[20.045712] (libcamera) StderrLine: {'line': b'remote: Counting objects:  49% (54/109)\x1b[K\n'}
+[20.046063] (libcamera) StderrLine: {'line': b'remote: Counting objects:  50% (55/109)\x1b[K\n'}
+[20.046459] (libcamera) StderrLine: {'line': b'remote: Counting objects:  51% (56/109)\x1b[K\n'}
+[20.046783] (libcamera) StderrLine: {'line': b'remote: Counting objects:  52% (57/109)\x1b[K\n'}
+[20.047196] (libcamera) StderrLine: {'line': b'remote: Counting objects:  53% (58/109)\x1b[K\n'}
+[20.047538] (libcamera) StderrLine: {'line': b'remote: Counting objects:  54% (59/109)\x1b[K\n'}
+[20.047859] (libcamera) StderrLine: {'line': b'remote: Counting objects:  55% (60/109)\x1b[K\n'}
+[20.048235] (libcamera) StderrLine: {'line': b'remote: Counting objects:  56% (62/109)\x1b[K\n'}
+[20.048572] (libcamera) StderrLine: {'line': b'remote: Counting objects:  57% (63/109)\x1b[K\n'}
+[20.048888] (libcamera) StderrLine: {'line': b'remote: Counting objects:  58% (64/109)\x1b[K\n'}
+[20.049257] (libcamera) StderrLine: {'line': b'remote: Counting objects:  59% (65/109)\x1b[K\n'}
+[20.049587] (libcamera) StderrLine: {'line': b'remote: Counting objects:  60% (66/109)\x1b[K\n'}
+[20.049904] (libcamera) StderrLine: {'line': b'remote: Counting objects:  61% (67/109)\x1b[K\n'}
+[20.050266] (libcamera) StderrLine: {'line': b'remote: Counting objects:  62% (68/109)\x1b[K\n'}
+[20.050599] (libcamera) StderrLine: {'line': b'remote: Counting objects:  63% (69/109)\x1b[K\n'}
+[20.050918] (libcamera) StderrLine: {'line': b'remote: Counting objects:  64% (70/109)\x1b[K\n'}
+[20.051329] (libcamera) StderrLine: {'line': b'remote: Counting objects:  65% (71/109)\x1b[K\n'}
+[20.051664] (libcamera) StderrLine: {'line': b'remote: Counting objects:  66% (72/109)\x1b[K\n'}
+[20.052006] (libcamera) StderrLine: {'line': b'remote: Counting objects:  67% (74/109)\x1b[K\n'}
+[20.052436] (libcamera) StderrLine: {'line': b'remote: Counting objects:  68% (75/109)\x1b[K\n'}
+[20.052924] (libcamera) StderrLine: {'line': b'remote: Counting objects:  69% (76/109)\x1b[K\n'}
+[20.053513] (libcamera) StderrLine: {'line': b'remote: Counting objects:  70% (77/109)\x1b[K\n'}
+[20.054402] (libcamera) StderrLine: {'line': b'remote: Counting objects:  71% (78/109)\x1b[K\n'}
+[20.055126] (libcamera) StderrLine: {'line': b'remote: Counting objects:  72% (79/109)\x1b[K\n'}
+[20.055937] (libcamera) StderrLine: {'line': b'remote: Counting objects:  73% (80/109)\x1b[K\n'}
+[20.056540] (libcamera) StderrLine: {'line': b'remote: Counting objects:  74% (81/109)\x1b[K\n'}
+[20.057212] (libcamera) StderrLine: {'line': b'remote: Counting objects:  75% (82/109)\x1b[K\n'}
+[20.057845] (libcamera) StderrLine: {'line': b'remote: Counting objects:  76% (83/109)\x1b[K\n'}
+[20.058270] (libcamera) StderrLine: {'line': b'remote: Counting objects:  77% (84/109)\x1b[K\n'}
+[20.058627] (libcamera) StderrLine: {'line': b'remote: Counting objects:  78% (86/109)\x1b[K\n'}
+[20.059026] (libcamera) StderrLine: {'line': b'remote: Counting objects:  79% (87/109)\x1b[K\n'}
+[20.059471] (libcamera) StderrLine: {'line': b'remote: Counting objects:  80% (88/109)\x1b[K\n'}
+[20.059814] (libcamera) StderrLine: {'line': b'remote: Counting objects:  81% (89/109)\x1b[K\n'}
+[20.060187] (libcamera) StderrLine: {'line': b'remote: Counting objects:  82% (90/109)\x1b[K\n'}
+[20.060526] (libcamera) StderrLine: {'line': b'remote: Counting objects:  83% (91/109)\x1b[K\n'}
+[20.060842] (libcamera) StderrLine: {'line': b'remote: Counting objects:  84% (92/109)\x1b[K\n'}
+[20.061248] (libcamera) StderrLine: {'line': b'remote: Counting objects:  85% (93/109)\x1b[K\n'}
+[20.061578] (libcamera) StderrLine: {'line': b'remote: Counting objects:  86% (94/109)\x1b[K\n'}
+[20.061893] (libcamera) StderrLine: {'line': b'remote: Counting objects:  87% (95/109)\x1b[K\n'}
+[20.062263] (libcamera) StderrLine: {'line': b'remote: Counting objects:  88% (96/109)\x1b[K\n'}
+[20.062588] (libcamera) StderrLine: {'line': b'remote: Counting objects:  89% (98/109)\x1b[K\n'}
+[20.062900] (libcamera) StderrLine: {'line': b'remote: Counting objects:  90% (99/109)\x1b[K\n'}
+[20.063260] (libcamera) StderrLine: {'line': b'remote: Counting objects:  91% (100/109)\x1b[K\n'}
+[20.063582] (libcamera) StderrLine: {'line': b'remote: Counting objects:  92% (101/109)\x1b[K\n'}
+[20.063940] (libcamera) StderrLine: {'line': b'remote: Counting objects:  93% (102/109)\x1b[K\n'}
+[20.064308] (libcamera) StderrLine: {'line': b'remote: Counting objects:  94% (103/109)\x1b[K\n'}
+[20.064623] (libcamera) StderrLine: {'line': b'remote: Counting objects:  95% (104/109)\x1b[K\n'}
+[20.064934] (libcamera) StderrLine: {'line': b'remote: Counting objects:  96% (105/109)\x1b[K\n'}
+[20.065303] (libcamera) StderrLine: {'line': b'remote: Counting objects:  97% (106/109)\x1b[K\n'}
+[20.065620] (libcamera) StderrLine: {'line': b'remote: Counting objects:  98% (107/109)\x1b[K\n'}
+[20.065938] (libcamera) StderrLine: {'line': b'remote: Counting objects:  99% (108/109)\x1b[K\n'}
+[20.066307] (libcamera) StderrLine: {'line': b'remote: Counting objects: 100% (109/109)\x1b[K\n'}
+[20.066622] (libcamera) StderrLine: {'line': b'remote: Counting objects: 100% (109/109), done.\x1b[K\n'}
+[20.066932] (libcamera) StderrLine: {'line': b'remote: Compressing objects:   0% (1/102)\x1b[K\n'}
+[20.067282] (libcamera) StderrLine: {'line': b'remote: Compressing objects:   1% (2/102)\x1b[K\n'}
+[20.067603] (libcamera) StderrLine: {'line': b'remote: Compressing objects:   2% (3/102)\x1b[K\n'}
+[20.067911] (libcamera) StderrLine: {'line': b'remote: Compressing objects:   3% (4/102)\x1b[K\n'}
+[20.068268] (libcamera) StderrLine: {'line': b'remote: Compressing objects:   4% (5/102)\x1b[K\n'}
+[20.068601] (libcamera) StderrLine: {'line': b'remote: Compressing objects:   5% (6/102)\x1b[K\n'}
+[20.068913] (libcamera) StderrLine: {'line': b'remote: Compressing objects:   6% (7/102)\x1b[K\n'}
+[20.069269] (libcamera) StderrLine: {'line': b'remote: Compressing objects:   7% (8/102)\x1b[K\n'}
+[20.069590] (libcamera) StderrLine: {'line': b'remote: Compressing objects:   8% (9/102)\x1b[K\n'}
+[20.069901] (libcamera) StderrLine: {'line': b'remote: Compressing objects:   9% (10/102)\x1b[K\n'}
+[20.070256] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  10% (11/102)\x1b[K\n'}
+[20.070579] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  11% (12/102)\x1b[K\n'}
+[20.070922] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  12% (13/102)\x1b[K\n'}
+[20.071293] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  13% (14/102)\x1b[K\n'}
+[20.071620] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  14% (15/102)\x1b[K\n'}
+[20.071932] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  15% (16/102)\x1b[K\n'}
+[20.072300] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  16% (17/102)\x1b[K\n'}
+[20.072616] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  17% (18/102)\x1b[K\n'}
+[20.072925] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  18% (19/102)\x1b[K\n'}
+[20.073283] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  19% (20/102)\x1b[K\n'}
+[20.073604] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  20% (21/102)\x1b[K\n'}
+[20.073914] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  21% (22/102)\x1b[K\n'}
+[20.074270] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  22% (23/102)\x1b[K\n'}
+[20.074591] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  23% (24/102)\x1b[K\n'}
+[20.074899] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  24% (25/102)\x1b[K\n'}
+[20.075253] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  25% (26/102)\x1b[K\n'}
+[20.075569] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  26% (27/102)\x1b[K\n'}
+[20.075874] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  27% (28/102)\x1b[K\n'}
+[20.076227] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  28% (29/102)\x1b[K\n'}
+[20.076548] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  29% (30/102)\x1b[K\n'}
+[20.076855] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  30% (31/102)\x1b[K\n'}
+[20.077250] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  31% (32/102)\x1b[K\n'}
+[20.077574] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  32% (33/102)\x1b[K\n'}
+[20.077932] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  33% (34/102)\x1b[K\n'}
+[20.078293] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  34% (35/102)\x1b[K\n'}
+[20.078612] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  35% (36/102)\x1b[K\n'}
+[20.078919] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  36% (37/102)\x1b[K\n'}
+[20.079274] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  37% (38/102)\x1b[K\n'}
+[20.079593] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  38% (39/102)\x1b[K\n'}
+[20.079902] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  39% (40/102)\x1b[K\n'}
+[20.080260] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  40% (41/102)\x1b[K\n'}
+[20.080584] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  41% (42/102)\x1b[K\n'}
+[20.080892] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  42% (43/102)\x1b[K\n'}
+[20.081255] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  43% (44/102)\x1b[K\n'}
+[20.081578] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  44% (45/102)\x1b[K\n'}
+[20.081892] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  45% (46/102)\x1b[K\n'}
+[20.082251] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  46% (47/102)\x1b[K\n'}
+[20.082576] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  47% (48/102)\x1b[K\n'}
+[20.082886] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  48% (49/102)\x1b[K\n'}
+[20.083240] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  49% (50/102)\x1b[K\n'}
+[20.083563] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  50% (51/102)\x1b[K\n'}
+[20.083872] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  51% (53/102)\x1b[K\n'}
+[20.084228] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  52% (54/102)\x1b[K\n'}
+[20.084551] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  53% (55/102)\x1b[K\n'}
+[20.084860] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  54% (56/102)\x1b[K\n'}
+[20.085216] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  55% (57/102)\x1b[K\n'}
+[20.085532] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  56% (58/102)\x1b[K\n'}
+[20.085839] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  57% (59/102)\x1b[K\n'}
+[20.086195] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  58% (60/102)\x1b[K\n'}
+[20.086514] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  59% (61/102)\x1b[K\n'}
+[20.086823] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  60% (62/102)\x1b[K\n'}
+[20.087177] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  61% (63/102)\x1b[K\n'}
+[20.087494] (-) TimerEvent: {}
+[20.087723] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  62% (64/102)\x1b[K\n'}
+[20.088133] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  63% (65/102)\x1b[K\n'}
+[20.088475] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  64% (66/102)\x1b[K\n'}
+[20.088794] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  65% (67/102)\x1b[K\n'}
+[20.089144] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  66% (68/102)\x1b[K\n'}
+[20.089477] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  67% (69/102)\x1b[K\n'}
+[20.089788] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  68% (70/102)\x1b[K\n'}
+[20.090134] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  69% (71/102)\x1b[K\n'}
+[20.090461] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  70% (72/102)\x1b[K\n'}
+[20.090772] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  71% (73/102)\x1b[K\n'}
+[20.091112] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  72% (74/102)\x1b[K\n'}
+[20.091490] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  73% (75/102)\x1b[K\n'}
+[20.091812] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  74% (76/102)\x1b[K\n'}
+[20.092176] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  75% (77/102)\x1b[K\n'}
+[20.092512] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  76% (78/102)\x1b[K\n'}
+[20.092829] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  77% (79/102)\x1b[K\n'}
+[20.093210] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  78% (80/102)\x1b[K\n'}
+[20.093603] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  79% (81/102)\x1b[K\n'}
+[20.093983] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  80% (82/102)\x1b[K\n'}
+[20.094485] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  81% (83/102)\x1b[K\n'}
+[20.095167] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  82% (84/102)\x1b[K\n'}
+[20.095658] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  83% (85/102)\x1b[K\n'}
+[20.096144] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  84% (86/102)\x1b[K\n'}
+[20.096854] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  85% (87/102)\x1b[K\n'}
+[20.097550] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  86% (88/102)\x1b[K\n'}
+[20.098230] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  87% (89/102)\x1b[K\n'}
+[20.098924] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  88% (90/102)\x1b[K\n'}
+[20.099500] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  89% (91/102)\x1b[K\n'}
+[20.100031] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  90% (92/102)\x1b[K\n'}
+[20.100599] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  91% (93/102)\x1b[K\n'}
+[20.101164] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  92% (94/102)\x1b[K\n'}
+[20.101758] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  93% (95/102)\x1b[K\n'}
+[20.102381] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  94% (96/102)\x1b[K\n'}
+[20.102785] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  95% (97/102)\x1b[K\n'}
+[20.103412] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  96% (98/102)\x1b[K\n'}
+[20.103824] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  97% (99/102)\x1b[K\n'}
+[20.104219] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  98% (100/102)\x1b[K\n'}
+[20.104559] (libcamera) StderrLine: {'line': b'remote: Compressing objects:  99% (101/102)\x1b[K\n'}
+[20.104878] (libcamera) StderrLine: {'line': b'remote: Compressing objects: 100% (102/102)\x1b[K\n'}
+[20.105250] (libcamera) StderrLine: {'line': b'remote: Compressing objects: 100% (102/102), done.\x1b[K\n'}
+[20.105585] (libcamera) StderrLine: {'line': b'Receiving objects:   0% (1/109)\n'}
+[20.105902] (libcamera) StderrLine: {'line': b'Receiving objects:   1% (2/109)\n'}
+[20.106266] (libcamera) StderrLine: {'line': b'Receiving objects:   2% (3/109)\n'}
+[20.106593] (libcamera) StderrLine: {'line': b'Receiving objects:   3% (4/109)\n'}
+[20.106912] (libcamera) StderrLine: {'line': b'Receiving objects:   4% (5/109)\n'}
+[20.107278] (libcamera) StderrLine: {'line': b'Receiving objects:   5% (6/109)\n'}
+[20.107605] (libcamera) StderrLine: {'line': b'Receiving objects:   6% (7/109)\n'}
+[20.107931] (libcamera) StderrLine: {'line': b'Receiving objects:   7% (8/109)\n'}
+[20.108297] (libcamera) StderrLine: {'line': b'Receiving objects:   8% (9/109)\n'}
+[20.108622] (libcamera) StderrLine: {'line': b'Receiving objects:   9% (10/109)\n'}
+[20.108936] (libcamera) StderrLine: {'line': b'Receiving objects:  10% (11/109)\n'}
+[20.109303] (libcamera) StderrLine: {'line': b'Receiving objects:  11% (12/109)\n'}
+[20.109621] (libcamera) StderrLine: {'line': b'Receiving objects:  12% (14/109)\n'}
+[20.109961] (libcamera) StderrLine: {'line': b'Receiving objects:  13% (15/109)\n'}
+[20.110375] (libcamera) StderrLine: {'line': b'Receiving objects:  14% (16/109)\n'}
+[20.110700] (libcamera) StderrLine: {'line': b'Receiving objects:  15% (17/109)\n'}
+[20.111038] (libcamera) StderrLine: {'line': b'Receiving objects:  16% (18/109)\n'}
+[20.111391] (libcamera) StderrLine: {'line': b'Receiving objects:  17% (19/109)\n'}
+[20.111712] (libcamera) StderrLine: {'line': b'Receiving objects:  18% (20/109)\n'}
+[20.112059] (libcamera) StderrLine: {'line': b'Receiving objects:  19% (21/109)\n'}
+[20.112403] (libcamera) StderrLine: {'line': b'Receiving objects:  20% (22/109)\n'}
+[20.112720] (libcamera) StderrLine: {'line': b'Receiving objects:  21% (23/109)\n'}
+[20.113067] (libcamera) StderrLine: {'line': b'Receiving objects:  22% (24/109)\n'}
+[20.113408] (libcamera) StderrLine: {'line': b'Receiving objects:  23% (26/109)\n'}
+[20.113724] (libcamera) StderrLine: {'line': b'Receiving objects:  24% (27/109)\n'}
+[20.114108] (libcamera) StderrLine: {'line': b'Receiving objects:  25% (28/109)\n'}
+[20.114451] (libcamera) StderrLine: {'line': b'Receiving objects:  26% (29/109)\n'}
+[20.114797] (libcamera) StderrLine: {'line': b'Receiving objects:  27% (30/109)\n'}
+[20.115154] (libcamera) StderrLine: {'line': b'Receiving objects:  28% (31/109)\n'}
+[20.115487] (libcamera) StderrLine: {'line': b'Receiving objects:  29% (32/109)\n'}
+[20.115803] (libcamera) StderrLine: {'line': b'Receiving objects:  30% (33/109)\n'}
+[20.116155] (libcamera) StderrLine: {'line': b'Receiving objects:  31% (34/109)\n'}
+[20.116490] (libcamera) StderrLine: {'line': b'Receiving objects:  32% (35/109)\n'}
+[20.116806] (libcamera) StderrLine: {'line': b'Receiving objects:  33% (36/109)\n'}
+[20.117158] (libcamera) StderrLine: {'line': b'Receiving objects:  34% (38/109)\n'}
+[20.117487] (libcamera) StderrLine: {'line': b'Receiving objects:  35% (39/109)\n'}
+[20.117800] (libcamera) StderrLine: {'line': b'Receiving objects:  36% (40/109)\n'}
+[20.118153] (libcamera) StderrLine: {'line': b'Receiving objects:  37% (41/109)\n'}
+[20.118483] (libcamera) StderrLine: {'line': b'Receiving objects:  38% (42/109)\n'}
+[20.118796] (libcamera) StderrLine: {'line': b'Receiving objects:  39% (43/109)\n'}
+[20.119150] (libcamera) StderrLine: {'line': b'Receiving objects:  40% (44/109)\n'}
+[20.119484] (libcamera) StderrLine: {'line': b'Receiving objects:  41% (45/109)\n'}
+[20.119795] (libcamera) StderrLine: {'line': b'Receiving objects:  42% (46/109)\n'}
+[20.120195] (libcamera) StderrLine: {'line': b'Receiving objects:  43% (47/109)\n'}
+[20.120565] (libcamera) StderrLine: {'line': b'Receiving objects:  44% (48/109)\n'}
+[20.120897] (libcamera) StderrLine: {'line': b'Receiving objects:  45% (50/109)\n'}
+[20.121291] (libcamera) StderrLine: {'line': b'Receiving objects:  46% (51/109)\n'}
+[20.121636] (libcamera) StderrLine: {'line': b'Receiving objects:  47% (52/109)\n'}
+[20.121999] (libcamera) StderrLine: {'line': b'Receiving objects:  48% (53/109)\n'}
+[20.122405] (libcamera) StderrLine: {'line': b'Receiving objects:  49% (54/109)\n'}
+[20.122772] (libcamera) StderrLine: {'line': b'Receiving objects:  50% (55/109)\n'}
+[20.123175] (libcamera) StderrLine: {'line': b'Receiving objects:  51% (56/109)\n'}
+[20.123542] (libcamera) StderrLine: {'line': b'Receiving objects:  52% (57/109)\n'}
+[20.135457] (libcamera) StderrLine: {'line': b'Receiving objects:  53% (58/109)\n'}
+[20.140832] (libcamera) StderrLine: {'line': b'Receiving objects:  54% (59/109)\n'}
+[20.142570] (libcamera) StderrLine: {'line': b'Receiving objects:  55% (60/109)\n'}
+[20.143842] (libcamera) StderrLine: {'line': b'Receiving objects:  56% (62/109)\n'}
+[20.144770] (libcamera) StderrLine: {'line': b'Receiving objects:  57% (63/109)\n'}
+[20.145569] (libcamera) StderrLine: {'line': b'Receiving objects:  58% (64/109)\n'}
+[20.146277] (libcamera) StderrLine: {'line': b'Receiving objects:  59% (65/109)\n'}
+[20.146828] (libcamera) StderrLine: {'line': b'Receiving objects:  60% (66/109)\n'}
+[20.147672] (libcamera) StderrLine: {'line': b'Receiving objects:  61% (67/109)\n'}
+[20.148320] (libcamera) StderrLine: {'line': b'Receiving objects:  62% (68/109)\n'}
+[20.148782] (libcamera) StderrLine: {'line': b'Receiving objects:  63% (69/109)\n'}
+[20.149175] (libcamera) StderrLine: {'line': b'Receiving objects:  64% (70/109)\n'}
+[20.149526] (libcamera) StderrLine: {'line': b'Receiving objects:  65% (71/109)\n'}
+[20.149852] (libcamera) StderrLine: {'line': b'Receiving objects:  66% (72/109)\n'}
+[20.150234] (libcamera) StderrLine: {'line': b'Receiving objects:  67% (74/109)\n'}
+[20.150570] (libcamera) StderrLine: {'line': b'Receiving objects:  68% (75/109)\n'}
+[20.150887] (libcamera) StderrLine: {'line': b'Receiving objects:  69% (76/109)\n'}
+[20.151303] (libcamera) StderrLine: {'line': b'Receiving objects:  70% (77/109)\n'}
+[20.158427] (libcamera) StderrLine: {'line': b'Receiving objects:  71% (78/109)\n'}
+[20.158828] (libcamera) StderrLine: {'line': b'Receiving objects:  72% (79/109)\n'}
+[20.159307] (libcamera) StderrLine: {'line': b'Receiving objects:  73% (80/109)\n'}
+[20.159689] (libcamera) StderrLine: {'line': b'Receiving objects:  74% (81/109)\n'}
+[20.160117] (libcamera) StderrLine: {'line': b'Receiving objects:  75% (82/109)\n'}
+[20.160607] (libcamera) StderrLine: {'line': b'Receiving objects:  76% (83/109)\n'}
+[20.161026] (libcamera) StderrLine: {'line': b'Receiving objects:  77% (84/109)\n'}
+[20.162623] (libcamera) StderrLine: {'line': b'remote: Total 109 (delta 5), reused 75 (delta 4), pack-reused 0 (from 0)\x1b[K\n'}
+[20.163066] (libcamera) StderrLine: {'line': b'Receiving objects:  78% (86/109)\n'}
+[20.163484] (libcamera) StderrLine: {'line': b'Receiving objects:  79% (87/109)\n'}
+[20.163849] (libcamera) StderrLine: {'line': b'Receiving objects:  80% (88/109)\n'}
+[20.164472] (libcamera) StderrLine: {'line': b'Receiving objects:  81% (89/109)\n'}
+[20.165253] (libcamera) StderrLine: {'line': b'Receiving objects:  82% (90/109)\n'}
+[20.165910] (libcamera) StderrLine: {'line': b'Receiving objects:  83% (91/109)\n'}
+[20.166561] (libcamera) StderrLine: {'line': b'Receiving objects:  84% (92/109)\n'}
+[20.167189] (libcamera) StderrLine: {'line': b'Receiving objects:  85% (93/109)\n'}
+[20.167793] (libcamera) StderrLine: {'line': b'Receiving objects:  86% (94/109)\n'}
+[20.168427] (libcamera) StderrLine: {'line': b'Receiving objects:  87% (95/109)\n'}
+[20.169037] (libcamera) StderrLine: {'line': b'Receiving objects:  88% (96/109)\n'}
+[20.169762] (libcamera) StderrLine: {'line': b'Receiving objects:  89% (98/109)\n'}
+[20.170456] (libcamera) StderrLine: {'line': b'Receiving objects:  90% (99/109)\n'}
+[20.171142] (libcamera) StderrLine: {'line': b'Receiving objects:  91% (100/109)\n'}
+[20.171780] (libcamera) StderrLine: {'line': b'Receiving objects:  92% (101/109)\n'}
+[20.172462] (libcamera) StderrLine: {'line': b'Receiving objects:  93% (102/109)\n'}
+[20.173162] (libcamera) StderrLine: {'line': b'Receiving objects:  94% (103/109)\n'}
+[20.173850] (libcamera) StderrLine: {'line': b'Receiving objects:  95% (104/109)\n'}
+[20.174630] (libcamera) StderrLine: {'line': b'Receiving objects:  96% (105/109)\n'}
+[20.175151] (libcamera) StderrLine: {'line': b'Receiving objects:  97% (106/109)\n'}
+[20.175590] (libcamera) StderrLine: {'line': b'Receiving objects:  98% (107/109)\n'}
+[20.176024] (libcamera) StderrLine: {'line': b'Receiving objects:  99% (108/109)\n'}
+[20.176506] (libcamera) StderrLine: {'line': b'Receiving objects: 100% (109/109)\n'}
+[20.176919] (libcamera) StderrLine: {'line': b'Receiving objects: 100% (109/109), 128.73 KiB | 1.38 MiB/s, done.\n'}
+[20.177370] (libcamera) StderrLine: {'line': b'Resolving deltas:   0% (0/5)\n'}
+[20.177739] (libcamera) StderrLine: {'line': b'Resolving deltas:  20% (1/5)\n'}
+[20.178116] (libcamera) StderrLine: {'line': b'Resolving deltas:  40% (2/5)\n'}
+[20.178521] (libcamera) StderrLine: {'line': b'Resolving deltas:  60% (3/5)\n'}
+[20.178934] (libcamera) StderrLine: {'line': b'Resolving deltas:  80% (4/5)\n'}
+[20.179411] (libcamera) StderrLine: {'line': b'Resolving deltas: 100% (5/5)\n'}
+[20.179748] (libcamera) StderrLine: {'line': b'Resolving deltas: 100% (5/5), done.\n'}
+[20.187682] (-) TimerEvent: {}
+[20.217640] (libcamera) StdoutLine: {'line': b'\n'}
+[20.218324] (libcamera) StdoutLine: {'line': b'Executing subproject \x1b[1mlibpisp\x1b[0m \n'}
+[20.218802] (libcamera) StdoutLine: {'line': b'\n'}
+[20.232068] (libcamera) StdoutLine: {'line': b'libpisp| Project name: \x1b[1mlibpisp\x1b[0m\n'}
+[20.232786] (libcamera) StdoutLine: {'line': b'libpisp| Project version: \x1b[1m1.5.0\x1b[0m\n'}
+[20.233598] (libcamera) StdoutLine: {'line': b'libpisp| C compiler for the host machine: \x1b[1mcc\x1b[0m (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[20.234496] (libcamera) StdoutLine: {'line': b'libpisp| C linker for the host machine: \x1b[1mcc\x1b[0m ld.bfd 2.42\n'}
+[20.235085] (libcamera) StdoutLine: {'line': b'libpisp| C++ compiler for the host machine: \x1b[1mc++\x1b[0m (gcc 13.3.0 "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[20.235718] (libcamera) StdoutLine: {'line': b'libpisp| C++ linker for the host machine: \x1b[1mc++\x1b[0m ld.bfd 2.42\n'}
+[20.284442] (libcamera) StdoutLine: {'line': b'libpisp| Configuring \x1b[1mpisp_build_config.h\x1b[0m using configuration\n'}
+[20.287795] (-) TimerEvent: {}
+[20.351945] (libcamera) StdoutLine: {'line': b'libpisp| Run-time dependency \x1b[1mnlohmann_json\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[20.352805] (libcamera) StdoutLine: {'line': b'libpisp| Looking for a fallback subproject for the dependency \x1b[1mnlohmann_json\x1b[0m\n'}
+[20.353461] (libcamera) StdoutLine: {'line': b'libpisp| Using \x1b[1msubprojects/libpisp/subprojects/nlohmann_json.wrap\x1b[0m\n'}
+[20.354260] (libcamera) StdoutLine: {'line': b'libpisp| Downloading \x1b[1mnlohmann_json\x1b[0m source from \x1b[1mhttps://github.com/nlohmann/json/releases/download/v3.12.0/include.zip\x1b[0m\n'}
+[20.388018] (-) TimerEvent: {}
+[20.488605] (-) TimerEvent: {}
+[20.589389] (-) TimerEvent: {}
+[20.690347] (-) TimerEvent: {}
+[20.790945] (-) TimerEvent: {}
+[20.891864] (-) TimerEvent: {}
+[20.992740] (-) TimerEvent: {}
+[21.093645] (-) TimerEvent: {}
+[21.194543] (-) TimerEvent: {}
+[21.295151] (-) TimerEvent: {}
+[21.396063] (-) TimerEvent: {}
+[21.496845] (-) TimerEvent: {}
+[21.597720] (-) TimerEvent: {}
+[21.698771] (-) TimerEvent: {}
+[21.799523] (-) TimerEvent: {}
+[21.900454] (-) TimerEvent: {}
+[22.001326] (-) TimerEvent: {}
+[22.102088] (-) TimerEvent: {}
+[22.202884] (-) TimerEvent: {}
+[22.303515] (-) TimerEvent: {}
+[22.404427] (-) TimerEvent: {}
+[22.505350] (-) TimerEvent: {}
+[22.606303] (-) TimerEvent: {}
+[22.707086] (-) TimerEvent: {}
+[22.808033] (-) TimerEvent: {}
+[22.908909] (-) TimerEvent: {}
+[23.009734] (-) TimerEvent: {}
+[23.018169] (libcamera) StdoutLine: {'line': b'Download size: 309160\n'}
+[23.069286] (libcamera) StdoutLine: {'line': b'Downloading: ..........\n'}
+[23.109937] (-) TimerEvent: {}
+[23.119627] (libcamera) StdoutLine: {'line': b'\n'}
+[23.120267] (libcamera) StdoutLine: {'line': b'Executing subproject \x1b[1mlibpisp:nlohmann_json\x1b[0m\n'}
+[23.120752] (libcamera) StdoutLine: {'line': b'\n'}
+[23.126576] (libcamera) StdoutLine: {'line': b'nlohmann_json| Project name: \x1b[1mnlohmann_json\x1b[0m\n'}
+[23.127203] (libcamera) StdoutLine: {'line': b'nlohmann_json| Project version: \x1b[1m3.12.0\x1b[0m\n'}
+[23.127898] (libcamera) StdoutLine: {'line': b'nlohmann_json| C++ compiler for the host machine: \x1b[1mc++\x1b[0m (gcc 13.3.0 "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")\n'}
+[23.128481] (libcamera) StdoutLine: {'line': b'nlohmann_json| C++ linker for the host machine: \x1b[1mc++\x1b[0m ld.bfd 2.42\n'}
+[23.133579] (libcamera) StdoutLine: {'line': b'nlohmann_json| Build targets in project: \x1b[1m46\x1b[0m\n'}
+[23.134371] (libcamera) StdoutLine: {'line': b'nlohmann_json| Subproject \x1b[1mnlohmann_json\x1b[0m finished.\n'}
+[23.135254] (libcamera) StdoutLine: {'line': b'\n'}
+[23.135865] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mnlohmann_json\x1b[0m from subproject \x1b[1msubprojects/nlohmann_json-3.12.0\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m3.12.0\x1b[0m\n'}
+[23.136430] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mthreads\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36munknown\x1b[0m \x1b[1;34m(cached)\x1b[0m\n'}
+[23.210159] (-) TimerEvent: {}
+[23.304558] (libcamera) StdoutLine: {'line': b'libpisp| Library \x1b[1mdl\x1b[0m found: \x1b[1;32mYES\x1b[0m\n'}
+[23.310297] (-) TimerEvent: {}
+[23.410781] (-) TimerEvent: {}
+[23.511316] (-) TimerEvent: {}
+[23.609610] (libcamera) StdoutLine: {'line': b'libpisp| Run-time dependency \x1b[1mBoost\x1b[0m (found: log, log_setup, system, thread) found: \x1b[1;32mYES\x1b[0m \x1b[36m1.83.0\x1b[0m (/usr)\n'}
+[23.611452] (-) TimerEvent: {}
+[23.644902] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mgstreamer-1.0\x1b[0m skipped: feature \x1b[1mgstreamer\x1b[0m disabled\n'}
+[23.645847] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mgstreamer-base-1.0\x1b[0m skipped: feature \x1b[1mgstreamer\x1b[0m disabled\n'}
+[23.647276] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mgstreamer-video-1.0\x1b[0m skipped: feature \x1b[1mgstreamer\x1b[0m disabled\n'}
+[23.648158] (libcamera) StdoutLine: {'line': b'libpisp| Dependency \x1b[1mgstreamer-allocators-1.0\x1b[0m skipped: feature \x1b[1mgstreamer\x1b[0m disabled\n'}
+[23.649342] (libcamera) StdoutLine: {'line': b'libpisp| Build targets in project: \x1b[1m48\x1b[0m\n'}
+[23.650037] (libcamera) StdoutLine: {'line': b'libpisp| Subproject \x1b[1mlibpisp\x1b[0m finished.\n'}
+[23.650710] (libcamera) StdoutLine: {'line': b'\n'}
+[23.651203] (libcamera) StdoutLine: {'line': b'Dependency \x1b[1mlibpisp\x1b[0m from subproject \x1b[1msubprojects/libpisp\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m1.5.0\x1b[0m\n'}
+[23.711596] (-) TimerEvent: {}
+[23.746559] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1megl\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m1.5\x1b[0m\n'}
+[23.778166] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mglesv2\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m3.2\x1b[0m\n'}
+[23.811834] (-) TimerEvent: {}
+[23.862102] (libcamera) StdoutLine: {'line': b'Check usable header "\x1b[1mEGL/egl.h\x1b[0m" with dependency egl: \x1b[1;32mYES\x1b[0m \n'}
+[23.912083] (-) TimerEvent: {}
+[24.012917] (-) TimerEvent: {}
+[24.102593] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mdl\x1b[0m found: \x1b[1;32mYES\x1b[0m\n'}
+[24.113073] (-) TimerEvent: {}
+[24.133605] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibudev\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m255\x1b[0m\n'}
+[24.162126] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1myaml-0.1\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m0.2.5\x1b[0m\n'}
+[24.213246] (-) TimerEvent: {}
+[24.313889] (-) TimerEvent: {}
+[24.414498] (-) TimerEvent: {}
+[24.515085] (-) TimerEvent: {}
+[24.615724] (-) TimerEvent: {}
+[24.716335] (-) TimerEvent: {}
+[24.743647] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mgnutls\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[24.775118] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibcrypto\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m3.0.13\x1b[0m\n'}
+[24.816497] (-) TimerEvent: {}
+[24.847935] (libcamera) StdoutLine: {'line': b'Header "\x1b[1muchar.h\x1b[0m" has symbol "\x1b[1mmbrtoc16\x1b[0m" skipped: feature \x1b[1mandroid\x1b[0m disabled\n'}
+[24.916635] (-) TimerEvent: {}
+[25.017139] (-) TimerEvent: {}
+[25.063175] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mtensorflow-lite\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[25.117362] (-) TimerEvent: {}
+[25.218099] (-) TimerEvent: {}
+[25.314476] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibevent_pthreads\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.1.12-stable\x1b[0m\n'}
+[25.318264] (-) TimerEvent: {}
+[25.349713] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibtiff-4\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m4.5.1\x1b[0m\n'}
+[25.410267] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mGTest\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m1.14.0\x1b[0m\n'}
+[25.418403] (-) TimerEvent: {}
+[25.469298] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mlibdrm\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.4.125\x1b[0m\n'}
+[25.503171] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1msdl2\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.30.0\x1b[0m\n'}
+[25.505418] (libcamera) StdoutLine: {'line': b'Dependency \x1b[1mlibjpeg\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.1.5\x1b[0m \x1b[1;34m(cached)\x1b[0m\n'}
+[25.518665] (-) TimerEvent: {}
+[25.573422] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mqt6\x1b[0m (modules: Core, Gui, OpenGL, OpenGLWidgets, Widgets) found: \x1b[1;31mNO\x1b[0m (tried pkgconfig)\n'}
+[25.618816] (-) TimerEvent: {}
+[25.626205] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mglib-2.0\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.80.0\x1b[0m\n'}
+[25.672707] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mgstreamer-video-1.0\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[25.717934] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mgstreamer-allocators-1.0\x1b[0m found: \x1b[1;31mNO\x1b[0m (tried pkgconfig and cmake)\n'}
+[25.718982] (-) TimerEvent: {}
+[25.819503] (-) TimerEvent: {}
+[25.856028] (libcamera) StdoutLine: {'line': b'Program python3 found: \x1b[1;32mYES\x1b[0m (/usr/bin/python3)\n'}
+[25.887124] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mpybind11\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m2.11.1\x1b[0m\n'}
+[25.919648] (-) TimerEvent: {}
+[25.945029] (libcamera) StdoutLine: {'line': b'Run-time dependency \x1b[1mpython\x1b[0m found: \x1b[1;32mYES\x1b[0m \x1b[36m3.12\x1b[0m\n'}
+[25.994300] (libcamera) StdoutLine: {'line': b'Configuring \x1b[1mlibcamerify\x1b[0m using configuration\n'}
+[26.019806] (-) TimerEvent: {}
+[26.027325] (libcamera) StdoutLine: {'line': b'Program \x1b[1mdoxygen\x1b[0m found: \x1b[1;31mNO\x1b[0m\n'}
+[26.029847] (libcamera) StdoutLine: {'line': b'Program \x1b[1mdot\x1b[0m found: \x1b[1;32mYES\x1b[0m (/usr/bin/dot)\n'}
+[26.032109] (libcamera) StdoutLine: {'line': b'Program \x1b[1msphinx-build-3 sphinx-build\x1b[0m found: \x1b[1;31mNO\x1b[0m\n'}
+[26.079607] (libcamera) StdoutLine: {'line': b'Configuring \x1b[1mconfig.h\x1b[0m using configuration\n'}
+[26.119990] (-) TimerEvent: {}
+[26.220553] (-) TimerEvent: {}
+[26.321164] (-) TimerEvent: {}
+[26.421696] (-) TimerEvent: {}
+[26.522259] (-) TimerEvent: {}
+[26.622787] (-) TimerEvent: {}
+[26.723385] (-) TimerEvent: {}
+[26.824138] (-) TimerEvent: {}
+[26.925054] (-) TimerEvent: {}
+[27.025629] (-) TimerEvent: {}
+[27.126202] (-) TimerEvent: {}
+[27.226750] (-) TimerEvent: {}
+[27.327456] (-) TimerEvent: {}
+[27.343440] (libcamera) StdoutLine: {'line': b'\n'}
+[27.344712] (libcamera) StdoutLine: {'line': b"../../src/libcamera/meson.build:291:8: \x1b[1;31mERROR:\x1b[0m Problem encountered: Python module 'ply' not found\n"}
+[27.345789] (libcamera) StdoutLine: {'line': b'\n'}
+[27.346756] (libcamera) StdoutLine: {'line': b'A full log can be found at \x1b[1m/home/isc/tk2_ws/build/libcamera/meson-logs/meson-log.txt\x1b[0m\n'}
+[27.427704] (-) TimerEvent: {}
+[27.528667] (-) TimerEvent: {}
+[27.629641] (-) TimerEvent: {}
+[27.667977] (libcamera) CommandEnded: {'returncode': 1}
+[27.669595] (libcamera) JobEnded: {'identifier': 'libcamera', 'rc': 1}
+[27.681282] (-) EventReactorShutdown: {}
