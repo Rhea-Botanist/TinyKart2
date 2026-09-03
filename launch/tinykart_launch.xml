@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <include file="$(find-pkg-share rplidar_ros)/launch/rplidar_c1_launch.py" />
+  <node pkg="tk2_main" exec="tk2_main_node" name="main"/>
+  <node pkg="yahboom_driver" exec="yahboom_driver" name="driver"/>
+</launch>

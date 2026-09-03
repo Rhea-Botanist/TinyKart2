@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "tk2_msgs/msg/Kartmsg",
+      "fields": [
+        {
+          "name": "throttle",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "0"
+        },
+        {
+          "name": "steering_angle",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "90"
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "tk2_msgs/msg/Kartmsg",
+      "hash_string": "RIHS01_f5f12ed64cbfef8583a57f2d3a6c99f721eade53b140de36aebd9290c80012bc"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+yahboom_driver = yahboom_driver.yahboom_driver:main
