@@ -4,6 +4,7 @@
 
 **Known Issues:**
 - Haven't gotten around to setting up udev/dialout rules, please manually check the USB interface for the kart (`ls /dev` and plug/unplug USB connections) and set permissions with `sudo chmod 777 <filepath>`.
+- On a fresh build, the `tk2_main` package may not build correctly when it can't find the `tk2_msgs` package. To fix this, build `tk2_msgs` seperately first with `colcon build --packages-select tk2_msgs`
 
 **Important info/Considerations:**
 - Your "workspace root" is the folder that contains the `src` directory, which itself contains all of the other nodes and packages. After building for the first time, it will also contain the `build`, `install`, and `log` folders. Unless otherwise stated, commands and filepaths will be from this location
