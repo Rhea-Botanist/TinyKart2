@@ -1,0 +1,9 @@
+repositories:
+    rplidar_ros:
+      type: git
+      url: git@github.com:Slamtec/rplidar_ros.git
+      version: master
+    v4l2_camera:
+      type: git
+      url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
+      version: jazzy
