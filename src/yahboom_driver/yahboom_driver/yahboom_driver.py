@@ -18,6 +18,7 @@ class YahboomDriver(Node):
         self.subscription
 
     def listener_callback(self, msg):
+        kart_buzzer = msg.buzzer
         kart_throttle = msg.throttle
         kart_steer = msg.steering_angle
         
@@ -25,6 +26,7 @@ class YahboomDriver(Node):
 
         bot.set_motor(kart_throttle, kart_throttle, kart_throttle, kart_throttle)
         bot.set_pwm_servo(1, kart_steer)
+        bot.set_beep(kart_buzzer)
 
 def main(args=None):
     rclpy.init(args=args)

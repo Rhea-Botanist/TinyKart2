@@ -9,9 +9,9 @@
 
 namespace tk2_main{
 
-class TK2_Main : public rclcpp::Node {
+class TK2_Main_Node : public rclcpp::Node {
     public:
-        explicit TK2_Main();
+        explicit TK2_Main_Node();
 
     private:
         rclcpp::Publisher<tk2_msgs::msg::Kartmsg>::SharedPtr drive_pub_;
@@ -20,8 +20,13 @@ class TK2_Main : public rclcpp::Node {
 
         int throttle;
         int steeringAngle;
+        int buzzer;
+
+        double forwardDistance;
+        double thirtyRight;
+        double thirtyLeft;
 
         void lidar_callback(sensor_msgs::msg::LaserScan::SharedPtr msg);
 
-};
+    };
 }
