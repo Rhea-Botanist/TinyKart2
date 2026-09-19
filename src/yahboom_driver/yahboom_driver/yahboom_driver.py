@@ -1,7 +1,7 @@
 import rclpy
+import sys
 from rclpy.node import Node
-import Rosmaster_Lib
-#from Rosmaster_Lib import Rosmaster
+from .Rosmaster_Lib import Rosmaster
 
 from tk2_msgs.msg import Kartmsg
 
@@ -35,6 +35,7 @@ class YahboomDriver(Node):
         kart_data = Kartdata()
         kart_data.velocity.x, kart_data.velocity.y, kart_data.velocity.z, = bot.get_motion_data()
         kart_data.encoder = bot.get_motor_encoder()
+        self.publisher_.publish(kart_data)
 
         
 

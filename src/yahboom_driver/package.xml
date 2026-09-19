@@ -7,6 +7,8 @@
   <maintainer email="markpopkov006@gmail.com">isc</maintainer>
   <license>Apache-2.0</license>
 
+  <depend>python3-serial</depend>
+
   <exec_depend>ackermann_msgs</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
