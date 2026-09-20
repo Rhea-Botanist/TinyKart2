@@ -15,7 +15,15 @@ TK2_Main_Node::TK2_Main_Node() : Node("tk2_main_node"){
 
 //Lidar Callback, gets called when lidar_sub_ gets a new message
 void TK2_Main_Node::lidar_callback(sensor_msgs::msg::LaserScan::SharedPtr msg){
-  RCLCPP_INFO(this->get_logger(), "lidar callback!");
+  auto kartcmd = tk2_msgs::msg::Kartmsg();
+
+  double forward = msg->ranges[0];
+
+  if(forward <= 6){forwardDistance = forward;}
+
+  kartcmd.throttle = forwardDistance*40;
+  
+  this->drive_pub_->publish(kartcmd);
 }
 
 

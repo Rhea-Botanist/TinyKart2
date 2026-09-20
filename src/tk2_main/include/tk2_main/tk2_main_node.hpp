@@ -18,13 +18,7 @@ class TK2_Main_Node : public rclcpp::Node {
         rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr lidar_sub_;
         rclcpp::TimerBase::SharedPtr timer;
 
-        int throttle;
-        int steeringAngle;
-        int buzzer;
-
         double forwardDistance;
-        double thirtyRight;
-        double thirtyLeft;
 
         void lidar_callback(sensor_msgs::msg::LaserScan::SharedPtr msg);
 
