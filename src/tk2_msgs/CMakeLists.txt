@@ -1,10 +1,13 @@
 cmake_minimum_required(VERSION 3.8)
 project(tk2_msgs)
 
+find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Kartmsg.msg"
+  "msg/Kartdata.msg"
+  DEPENDENCIES geometry_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)
