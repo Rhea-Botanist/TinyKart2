@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<robot name="Tinykart 2">
+    <webots>
+        <device reference="ld0" type="Lidar">
+            <ros>
+                <topicName>/scan</topicName>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+        <plugin type="webots_tk2::TK2Webots" />
+    </webots>
+</robot>

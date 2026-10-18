@@ -12,6 +12,7 @@
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <build_depend>sensor_msgs</build_depend>
+  <build_depend>tk2_msgs</build_depend>
   <exec_depend>sensor_msgs</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
