@@ -24,6 +24,8 @@ private:
 
   WbDeviceTag right_motor;
   WbDeviceTag left_motor;
+  WbDeviceTag right_steer;
+  WbDeviceTag left_steer;
 };
 } // namespace webots_tk2
 #endif

@@ -1,0 +1,221 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/vehicles/protos/abstract/AckermannVehicle.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/vehicles/protos/abstract/SimpleVehicle.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.029847288598419144 -0.1368710166567468 -0.9901391135404515 4.9713326461737655
+  position 1.7102695889333952 -0.6376861290347571 0.08959456223572143
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0 -0.0646522
+  floorSize 10 10
+  floorTileSize 1 1
+}
+Pose {
+  translation 0 2.35697e-07 -0.17
+  rotation 1 0 0 1.5707996938995747
+  children [
+    CadShape {
+      url [
+        "track.obj"
+      ]
+    }
+  ]
+}
+Solid {
+  translation 0 3.70381e-07 -0.17
+  rotation 1 0 0 1.5707996938995747
+  boundingObject Mesh {
+    url [
+      "track.obj"
+    ]
+  }
+  physics Physics {
+  }
+  locked TRUE
+}
+Robot {
+  translation 1.94 -7.01754e-06 -0.0599908
+  rotation -2.355989999987029e-06 -2.3368099999871345e-06 -0.9999999999944944 -1.5707953071795862
+  children [
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "left wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 0.045 0.025
+        children [
+          DEF WHEEL Pose {
+            rotation 1 0 0 1.5707996938995747
+            children [
+              Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Cylinder {
+                  height 0.01
+                  radius 0.025
+                }
+              }
+            ]
+          }
+        ]
+        name "left wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 0 1
+        anchor 0.4 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "left steer motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0.1 0.045 0.025
+        children [
+          DEF WHEEL Pose {
+            rotation 1 0 0 1.5707996938995747
+            children [
+              Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Cylinder {
+                  height 0.01
+                  radius 0.025
+                }
+              }
+            ]
+          }
+        ]
+        name "left wheel(1)"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "right wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 -0.045 0.025
+        children [
+          USE WHEEL
+        ]
+        name "right wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 0 1
+        anchor 0.4 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "right steer motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0.1 -0.045 0.025
+        children [
+          USE WHEEL
+        ]
+        name "right wheel(1)"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    Pose {
+      translation 0.05 0 0.0615
+      rotation 0 1 0 1.5708
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+            roughness 1
+            metalness 0
+          }
+          geometry DEF BODY Cylinder {
+            height 0.16
+            radius 0.045
+          }
+        }
+      ]
+    }
+    Lidar {
+      translation 0 0 0.063
+      rotation 0 0 1 3.141592
+      children [
+        DEF SENSOR Pose {
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 1 0
+                roughness 1
+                metalness 0
+              }
+              geometry Cylinder {
+                height 0.004
+                radius 0.008
+              }
+            }
+          ]
+        }
+      ]
+      name "ld0"
+      horizontalResolution 360
+      fieldOfView 6.283185
+      verticalFieldOfView 0.1
+      numberOfLayers 1
+      maxRange 12
+    }
+  ]
+  name "tinykart_2"
+  boundingObject Pose {
+    translation 0.05 0 0.0614999
+    rotation 0 1 0 1.5708
+    children [
+      USE BODY
+    ]
+  }
+  physics Physics {
+  }
+  controller "<extern>"
+}
